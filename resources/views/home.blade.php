@@ -17,15 +17,16 @@
 					</div>
 					<div class="col-lg-6 col-12">
 						<div class="banner__thumb wow fadeInUp" data-wow-duration="1.5s">
-                                <div class="svg-box-container">
+                                <!-- <div class="svg-box-container">
                                     <div class ="svg-box first-svg-box">
                                         @include('svg.first')
                                     </div>
-                                    <!-- <div class ="svg-box second-svg-box">
+                                    <div class ="svg-box second-svg-box">
                                         @include('svg.second')
-                                    </div> -->
-                                </div>
+                                    </div>
+                                </div> -->
 							<img src="assets/images/mockups/iphone-12-pro-max--gold.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+                            <!-- <img src="assets/images/mockups/Group-20.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;"> -->
 							<div class="banner__thumb--shape">
 								<div class="shapeimg shapeimg__one">
 									<!-- <img src="assets/images/banner/shape/home2/01.png" alt="dating thumb"> -->
