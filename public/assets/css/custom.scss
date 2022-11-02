@@ -1,0 +1,171 @@
+$dark-bg-color : #2C3E50;
+$dark-bg-gradient : linear-gradient(135deg, #2C3E50, #000 75%);
+$dark-bg-gradient-two : linear-gradient(135deg, #434343, #000 75%);
+$primary-color : #E3A80F;
+$text-black : #353535;
+$text-white : #f6f6f6;
+$primary-color-gradient : linear-gradient(135deg, #EDC111, #E3A80F);
+
+body {
+    background-color: #010101;
+    color: $text-white;
+    background: $dark-bg-gradient;
+}
+
+.header__more .default-btn,
+.default-btn.style-2 {
+    background: $primary-color-gradient;
+}
+.mainmenu {
+    ul li a {
+        color: $text-white;
+    }
+    ul li.active > a{
+        color: $primary-color;
+    }
+    ul li:hover > a  {
+        color: $primary-color;
+    }
+    ul li.active > a::after, ul li.active > a::before, .menu-item-has-children:hover > a::after {
+        background: $primary-color;
+    }
+    ul li ul li a.active, ul li ul li a:hover {
+        background: $primary-color-gradient;
+    }
+}
+
+.shop-cart .section-wrapper .cart-bottom .cart-checkout-box .coupon input[type=submit], .shop-cart .section-wrapper .cart-top table thead tr, .shop-single .review .review-content .review-showing .client-review .review-form .review-title h4::before, .shop-single .review .review-nav li.active, .shop-single .product-details .post-content form .default-btn, .member__buttongroup li.is-checked .member__radio, .about--style2 .about__right, .about--style2 .about__bottom--navi div:hover, .about--style2 .about__bottom--navi div.active, .footer--style2 .footer__newsletter--form form .default-btn, .footer__newsletter--form form .default-btn, .header__top, .create-post .lab-inner .lab-content .post-form .content-type .content-list .post-submit .default-btn, .cart-plus-minus .qtybutton:hover, .cart-plus-minus .qtybutton 
+{
+    background: $primary-color;
+}
+.about--style2 .about__right .banner__inputlist,
+.about--style2 .about__right .banner__inputlist select {
+    background: $primary-color;
+    background: #fff3d4;
+    color: $text-black;
+}
+.shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout input[type=submit]:hover, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item .p-content a:hover, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on a:hover, .shop-page .shop-product-wrap .product-item:hover .product-content h5 a, .shop-page .shop-product-wrap .product-list-item:hover .product-content h5 a, .shop-page .shop-title .product-view-mode a.active, .shop-page .section-header h4 span, .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li.open > a, .widget.shop-widget .widget-wrapper .shop-menu li.open > a, .blog__inner:hover .blog__content a h3, .blog__inner:hover .blog__content a h2, .app__content h4, .member--style2 .member__tab li button.active, .member__buttongroup li.is-checked, .work__content h3, .work__tablist .nav-link.active span, .about__content h3 .counter, .about__inner:hover .about__content h4, .footer--support .footer__content--desc ul li a:hover, .footer--activity .footer__content--desc ul li:hover .content h6, .footer--feature .footer__content--desc ul li:hover .content h6, .breadcrumb-item.active, .cart-plus-minus .cart-plus-minus-box,
+.about--style2 .about__right .default-btn span
+{
+    color: $primary-color;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: $text-white;
+}
+p {
+    color: #555555;
+}
+.shop-cart .section-wrapper .cart-top table tbody tr td.product-item .p-content a, .widget.shop-widget .widget-wrapper .shop-menu li a, .footer--style2 .footer__content--desc ul li a, .footer--style2 .footer__content--title h4, .footer--style2 .footer__newsletter--form form input, .footer--style2 .footer__newsletter--title h4, .banner__content h2, .default-pagination li a 
+{
+    color: $text-white;
+}
+
+.member__item {
+    .member__inner {
+        background-color: transparent;
+        border-radius: 12px;
+    }
+    .member__inner:hover {
+        box-shadow: 0 10px 20px rgb(227, 168, 15,.30);
+        .member__content h5 {
+            color: $primary-color;
+        }
+        p {
+            color: $text-white;
+        }
+    } 
+    .member__content h5 {
+        color: $text-white;
+    }
+}
+
+.navbar {
+    .navbar-brand img {
+        max-width: 100px;
+    }
+    .navbar-toggler--icon, .navbar-toggler--icon:after, .navbar-toggler--icon:before {
+        background-color: $primary-color;
+    }
+}
+
+.primary-color {
+    color: $primary-color;
+}
+.scrollToTop i {
+    background: $primary-color-gradient;
+}
+.footer {
+    .footer__top {
+        background: $dark-bg-gradient;
+    }
+    .footer__content p a {
+        color: $primary-color;
+    }
+}
+
+.preloader {
+    background: $dark-bg-gradient;
+    .preloader-inner .preloader-icon span {
+        background: $primary-color-gradient;
+    }
+}
+.story__item {
+    h4,h6 {
+        color: $text-white;
+    }
+    .story__inner:hover h4 {
+        color: $primary-color;
+    }
+    p {
+        color: $text-white;
+    }
+    .story__inner {
+        border-radius: 12px;
+        background: transparent;
+    }
+    .story__inner:hover {
+        box-shadow: 0 10px 20px rgb(227, 168, 15,.30);
+        box-shadow: 0 3px 15px rgb(227 168 15 / 15%);
+        box-shadow: none;
+    }
+}
+.transportation .section__wrapper .right .lab-line > span {
+    background: $primary-color !important;
+}
+.about {
+    .about__inner_not {
+        box-shadow: none !important;
+    }
+    .about__inner {
+        background: transparent;
+        border-radius: 12px;
+    }
+    .about__inner:hover {
+        box-shadow: 0 10px 20px rgb(227, 168, 15,.30);
+        p {
+            color: $text-white;
+        }
+    }
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+.svg-box-container {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    margin-top: -60px;
+    .svg-box.first-svg-box {
+        top: 0;
+        left: 0;
+        max-width: 200px;
+        position: absolute;
+    }
+    .svg-box.second-svg-box{
+        bottom: 0;
+        right: 0;
+        max-width: 200px;
+        position: absolute;
+    }
+}

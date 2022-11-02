@@ -1,0 +1,12 @@
+@use 'custom';
+
+@media screen and (min-width: 992px) {
+    .header.header-fixed {
+        background: rgb(255,255,255,.3);
+        backdrop-filter: blur(4px);
+        background: custom.$dark-bg-gradient;
+    }
+    .menu-item-has-children > a::after, .menu-item-has-children > a::before {
+        background-color: custom.$text-white;
+    }
+}
