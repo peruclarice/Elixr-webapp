@@ -1,67 +1,45 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-@include('layout.head')
-
-<body>
-	<!-- preloader start here -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-	<!-- preloader ending here -->
 
 
-	<!-- scrollToTop start here -->
-    <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
-    <!-- scrollToTop ending here -->
-
-
-    <!-- ================> header section start here <================== -->
-    @include('layout.header')
-    <!-- ================> header section end here <================== -->
-
-
-    @yield('main')
-
-
-    <!-- ================> Footer section start here <================== -->
-	@include('layout.footer')
-    <!-- ================> Footer section end here <================== -->
-
-	
-	<!-- All Needed JS -->
-	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/swiper.min.js"></script>
-	<!-- <script src="assets/js/all.min.js"></script> -->
-	<script src="assets/js/wow.js"></script>
-	<script src="assets/js/counterup.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
-	<script src="assets/js/lightcase.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
-
-
-	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-	<script>
-		window.ga = function () {
-			ga.q.push(arguments)
-		};
-		ga.q = [];
-		ga.l = +new Date;
-		ga('create', 'UA-XXXXX-Y', 'auto');
-		ga('set', 'anonymizeIp', true);
-		ga('set', 'transport', 'beacon');
-		ga('send', 'pageview')
-	</script>
-	<script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-</html>
+    
+<!-- ================> Banner section start here <================== -->
+<div class="banner banner--style2 padding-top bg_img" style =" padding-top: 80px;">
+		<div class="container">
+			<div class="banner__wrapper">
+				<div class="row g-0 justify-content-center">
+					<div class="col-lg-6 col-12">
+						<div class="banner__content wow fadeInLeft" data-wow-duration="1.5s">
+							<div class="banner__title">
+								<h2>New Places, Unforgettable Dating.</h2>
+								<p class="primary-color">Join our international family today! Please call us for more info.</p>
+								<a href="membership.html" class="default-btn style-2"><span>Get A Membership</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="banner__thumb wow fadeInUp" data-wow-duration="1.5s">
+                        
+							<img src="assets/images/mockups/iphone-12-pro-max--gold.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+							<div class="banner__thumb--shape">
+								<div class="shapeimg shapeimg__one">
+                                    <div style ="max-width: 200px;">
+                                        @include('svg.first')
+                                    </div>
+								</div>
+								<div class="shapeimg shapeimg__two">
+                                    <div style ="max-width: 200px;">
+                                        @include('svg.second')
+                                    </div>
+								</div>
+								<div class="shapeimg shapeimg__three">
+                                    <div style ="max-width: 200px;">
+                                        @include('svg.first')
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+  
