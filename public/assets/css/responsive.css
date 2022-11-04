@@ -1,7 +1,6 @@
 body {
-  background-color: #010101;
   color: #f6f6f6;
-  background: linear-gradient(135deg, #2C3E50, #000 75%);
+  background-color: #060606;
 }
 
 .header__more .default-btn,
@@ -9,12 +8,20 @@ body {
   background: linear-gradient(135deg, #EDC111, #E3A80F);
 }
 
+.mainmenu ul li a {
+  color: #f6f6f6;
+}
 .mainmenu ul li.active > a {
   color: #E3A80F;
 }
-
-.mainmenu ul li.active > a::after, .mainmenu ul li.active > a::before {
+.mainmenu ul li:hover > a {
+  color: #E3A80F;
+}
+.mainmenu ul li.active > a::after, .mainmenu ul li.active > a::before, .mainmenu .menu-item-has-children:hover > a::after {
   background: #E3A80F;
+}
+.mainmenu ul li ul li a.active, .mainmenu ul li ul li a:hover {
+  background: linear-gradient(135deg, #EDC111, #E3A80F);
 }
 
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .coupon input[type=submit], .shop-cart .section-wrapper .cart-top table thead tr, .shop-single .review .review-content .review-showing .client-review .review-form .review-title h4::before, .shop-single .review .review-nav li.active, .shop-single .product-details .post-content form .default-btn, .member__buttongroup li.is-checked .member__radio, .about--style2 .about__right, .about--style2 .about__bottom--navi div:hover, .about--style2 .about__bottom--navi div.active, .footer--style2 .footer__newsletter--form form .default-btn, .footer__newsletter--form form .default-btn, .header__top, .create-post .lab-inner .lab-content .post-form .content-type .content-list .post-submit .default-btn, .cart-plus-minus .qtybutton:hover, .cart-plus-minus .qtybutton {
@@ -45,16 +52,127 @@ p {
   color: #f6f6f6;
 }
 
-.mainmenu ul li a {
+.member__item .member__inner {
+  background-color: transparent;
+  border-radius: 12px;
+}
+.member__item .member__inner:hover {
+  box-shadow: 0 10px 20px rgba(227, 168, 15, 0.3);
+}
+.member__item .member__inner:hover .member__content h5 {
+  color: #E3A80F;
+}
+.member__item .member__inner:hover p {
+  color: #f6f6f6;
+}
+.member__item .member__content h5 {
   color: #f6f6f6;
 }
 
-.navbar-brand img {
+.navbar .navbar-brand img {
   max-width: 100px;
+}
+.navbar .navbar-toggler--icon, .navbar .navbar-toggler--icon:after, .navbar .navbar-toggler--icon:before {
+  background-color: #E3A80F;
 }
 
 .primary-color {
   color: #E3A80F;
+}
+
+.scrollToTop i {
+  background: linear-gradient(135deg, #EDC111, #E3A80F);
+}
+
+.footer .footer__top {
+  background: linear-gradient(135deg, #2C3E50, #000);
+}
+.footer .footer__content p a {
+  color: #E3A80F;
+}
+
+.preloader {
+  background: linear-gradient(135deg, #2C3E50, #000);
+  background: #060606;
+}
+.preloader .preloader-inner .preloader-icon span {
+  background: linear-gradient(135deg, #EDC111, #E3A80F);
+}
+
+.story__item h4, .story__item h6 {
+  color: #f6f6f6;
+}
+.story__item .story__inner:hover h4 {
+  color: #E3A80F;
+}
+.story__item p {
+  color: #f6f6f6;
+}
+.story__item .story__inner {
+  border-radius: 12px;
+  background: transparent;
+}
+.story__item .story__inner:hover {
+  box-shadow: 0 10px 20px rgba(227, 168, 15, 0.3);
+  box-shadow: 0 3px 15px rgba(227, 168, 15, 0.15);
+  box-shadow: none;
+}
+
+.transportation .section__wrapper .right .lab-line > span {
+  background: #E3A80F !important;
+}
+
+.about .about__inner_not {
+  box-shadow: none !important;
+}
+.about .about__inner {
+  background: transparent;
+  border-radius: 12px;
+}
+.about .about__inner:hover {
+  box-shadow: 0 10px 20px rgba(227, 168, 15, 0.3);
+}
+.about .about__inner:hover p {
+  color: #f6f6f6;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-box-container {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  margin-top: -60px;
+}
+.svg-box-container .svg-box.first-svg-box {
+  top: 0;
+  left: 0;
+  max-width: 200px;
+  position: absolute;
+}
+.svg-box-container .svg-box.second-svg-box {
+  bottom: 0;
+  right: 0;
+  max-width: 200px;
+  position: absolute;
+}
+
+.elixr-hero {
+  padding-top: 0px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elixir-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -62,7 +180,8 @@ p {
     background: rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
-    background: linear-gradient(135deg, #2C3E50, #000 75%);
+    background: linear-gradient(135deg, #2C3E50, #000);
+    background: #060606;
   }
   .menu-item-has-children > a::after, .menu-item-has-children > a::before {
     background-color: #f6f6f6;
