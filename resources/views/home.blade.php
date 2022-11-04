@@ -749,8 +749,8 @@
 									<img src="assets/images/about/01.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Simple steps to follow to have a matching connection."</p>
+									<h4>Linton</h4>
+									<p>"I would love to have an app where I can check for events going on, when I travel to Ghana. Also I'd love to know the people I'd be hanging out with"</p>
 								</div>
 							</div>
 						</div>
@@ -762,8 +762,8 @@
 									<img src="assets/images/about/02.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Create connections with users that are like you."</p>
+									<h4>Femi</h4>
+									<p>"I think it's a really good idea. I would definetly sign up for adventurous events and use the web app"</p>
 								</div>
 							</div>
 						</div>
@@ -775,8 +775,8 @@
 									<img src="assets/images/about/03.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Don’t waste your time! Find only what you are interested"</p>
+									<h4>Ms. Clarissa</h4>
+									<p>"It sounds like a fun idea, I don't know who I'd be interacting with, is it for love, or friendship"</p>
 								</div>
 							</div>
 						</div>
@@ -788,8 +788,8 @@
 									<img src="assets/images/about/04.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"BuddyPress network is full of cool members."</p>
+									<h4>Babps</h4>
+									<p>"Having turned 50 recently, I enjoy traveling with my buddies all over, and now I can do that and much more with like minded people"</p>
 								</div>
 							</div>
 						</div>
