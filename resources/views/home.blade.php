@@ -75,7 +75,7 @@
 									</ul> -->
 								</li>
 								<li>
-									<a href="#0">Our Services</a>
+									<a href="#0">Dating Blog</a>
 									<!-- <ul>
 										<li><a href="about.html">About Us</a></li>
                                         <li><a href="membership.html">Membership</a></li>
@@ -84,7 +84,7 @@
 									</ul> -->
 								</li>
 								<li>
-									<a href="#0">FAQ</a>
+									<a href="#0">Events</a>
 									<!-- <ul>
 										<li><a href="community.html">Community</a></li>
 										<li><a href="group.html">All Group</a></li>
@@ -138,9 +138,9 @@
 									<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
 										<div class="banner__title">
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
-											<h2>Welcome to your <span class="primary-color">Golden Ages !</span></h2>
-											<p class="text-white">It is time to get out of the building and build valuable connections today</p>
-											<a href="membership.html" class="default-btn style-2 text-center"><span>Join our Waitlist and become an Elixr</span></a>
+											<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
+											<p class="text-white">Where age is more than just a number!</p>
+											<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
 										</div>
 									</div>
 								</div>
@@ -179,7 +179,7 @@
 						<div class="col-lg-6">
 							<div class="about__right">
 								<div class="about__title">
-									<h2>Find Your Connections</h2>
+									<h2>Start Your Journey</h2>
 								</div>
 								<div class="about__content">
 									<h3 style ="color: var(--primary-color);">Welcome To Our Elixr</h3>
@@ -1098,12 +1098,12 @@
 										</div>
 										<div class="footer__content--desc">
 											<!-- Ozioma, edit the contents directly in the tag below -->
-											<p>Elixr is a friendly dating theme based on HTML template for the community functionality</p>
+											<p>Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
 										</div>
 										<!-- Ozioma, edit the contents directly in the tag below -->
-										<div class="footer__content--info">
+										<div class="footer__content--info">Aluguntugui St, Accra<p>
 											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
-											<p><b>Contact :</b> +30 226 4881 514 www.yoursitename.com</p>
+											<p><b>Contact :</b> +30 226 4881 514 www.dateonelixr.com</p>
 										</div>
 									</div>
 								</div>
