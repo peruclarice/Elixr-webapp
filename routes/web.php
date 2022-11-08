@@ -19,7 +19,12 @@ Route::get('/', function () {
 });
 Route::get('/home', function () {
     // return view('welcome');
-    return view('home1');
+        return view('home1');
+});
+
+Route::get('/home1', function () {
+    // return view('welcome');
+        return view('home2');
 });
 
 Route::get('/blog', function () {
