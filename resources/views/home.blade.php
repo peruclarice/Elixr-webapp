@@ -970,6 +970,7 @@
 			<div class="section__wrapper">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 				<h2 class ="primary-color">Tips on Connecting</h2>
+				<!-- Ozioma, edit the contents directly in the tag below -->
 				<p class = "text-white">Our dating platform is like a breath of fresh air. Clean and trendy design with ready to use features we are sure you will love.</p>
 			</div>
 				<div class="row g-4 justify-content-center">
@@ -980,9 +981,11 @@
 									<img src="assets/images/work/09.png" alt="dating thumb">
 								</div>
 								<div class="work__content">
+									<!-- Ozioma, edit the contents directly in the tag below -->
 									<h3>Trust And Safety</h3>
+									<!-- Ozioma, edit the contents directly in the tag below -->
 									<p>Choose from one of our membership levels and unlock features you need. </p>
-									<a href="policy.html" class="default-btn"><span>See More Details</span></a>
+									<a href="/blog" class="default-btn"><span>See More Details</span></a>
 								</div>
 							</div>
 						</div>
@@ -994,9 +997,11 @@
 									<img src="assets/images/work/10.png" alt="dating thumb">
 								</div>
 								<div class="work__content">
+									<!-- Ozioma, edit the contents directly in the tag below -->
 									<h3>Simple Membership</h3>
+									<!-- Ozioma, edit the contents directly in the tag below -->
 									<p>Choose from one of our membership levels and unlock features you need. </p>
-									<a href="membership.html" class="default-btn reverse"><span>Membership Details</span></a>
+									<a href="/blog" class="default-btn reverse"><span>Membership Details</span></a>
 								</div>
 							</div>
 						</div>
@@ -1021,6 +1026,7 @@
 							<div class="app__content">
 								<h4>Download App Our Elixr</h4>
 								<h2>Easy Connect To Everyone</h2>
+								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p>You find us, finally and you are already in love. More than 5.000.000 around the world already shared the same experience andng ares uses our system Joining us today just got easier!</p>
 								<ul>
 									<li><a href="membership.html" class="default-btn style-2 text-center"><span>Join our Waitlist and become an Elixr</span></a></li>
@@ -1091,8 +1097,10 @@
 											<h4>About Elixr</h4>
 										</div>
 										<div class="footer__content--desc">
+											<!-- Ozioma, edit the contents directly in the tag below -->
 											<p>Elixr is a friendly dating theme based on HTML template for the community functionality</p>
 										</div>
+										<!-- Ozioma, edit the contents directly in the tag below -->
 										<div class="footer__content--info">
 											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
 											<p><b>Contact :</b> +30 226 4881 514 www.yoursitename.com</p>
