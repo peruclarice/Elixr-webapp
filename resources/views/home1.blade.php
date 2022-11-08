@@ -52,8 +52,9 @@
     <!-- scrollToTop ending here -->
 
 
+    <div class="video_bg">
     <header class="header" id="navbar">
-	<div style ="height: 0.75vh; background : var(--primary-color);"></div>
+	    <div style ="height: 0.75vh; background : var(--primary-color);"></div>
 		<div class="header__bottom">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg">
@@ -126,10 +127,7 @@
     </header>
 
 
-	
 
-    
-<!-- ================> Banner section start here <================== -->
 	<div class="banner banner--style2 padding-top bg_img elixr-hero">
 		<div class="container">
 			<div class="banner__wrapper">
@@ -164,6 +162,9 @@
 				</div>
 		</div>
 	</div>
+    </div>
+
+    
     <!-- ================> Banner section end here <================== -->
 
 
