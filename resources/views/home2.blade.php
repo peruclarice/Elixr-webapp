@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="assets/css/lightcase.css">
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/slideshow.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <style>
