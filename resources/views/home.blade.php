@@ -51,6 +51,16 @@
     <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
     <!-- scrollToTop ending here -->
 
+	<div class = "elixr-hero-slideshow">
+	<ul class="slideshow">
+		<li><span>Image 01</span></li>
+		<li><span>Image 02</span></li>
+		<li><span>Image 03</span></li>
+		<li><span>Image 04</span></li>
+		<li><span>Image 05</span></li>
+		<li><span>Image 06</span></li>
+	</ul>
+	</div>
 
     <header class="header" id="navbar">
 	<div style ="height: 0.75vh; background : var(--primary-color);"></div>
@@ -127,7 +137,6 @@
 
 
 	
-
     
 <!-- ================> Banner section start here <================== -->
 	<div class="banner banner--style2 padding-top bg_img elixr-hero">

@@ -207,3 +207,17 @@ svg {
     width: 100%;
     height: 100%;
 }
+
+.elixr-hero-slideshow {
+    .slideshow {
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            top: 0px;
+            left: 0px;
+            z-index: 0;
+        }
+    }
+}
