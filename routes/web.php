@@ -17,3 +17,17 @@ Route::get('/', function () {
     // return view('welcome');
     return view('home');
 });
+Route::get('/home', function () {
+    // return view('welcome');
+        return view('home1');
+});
+
+Route::get('/home1', function () {
+    // return view('welcome');
+        return view('home2');
+});
+
+Route::get('/blog', function () {
+    // return view('welcome');
+    return view('blog');
+});
