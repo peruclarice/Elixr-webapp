@@ -137,32 +137,22 @@
 			<div class="container">
 				<div class="banner__wrapper">
 					<div class="row g-0 justify-content-center align-items-center">
-									<div class="col-lg-6 col-12">
+									<div class="col-lg-12 col-12 text-center">
 										<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
 											<div class="banner__title">
 												<!-- <h2>New Places, Unforgettable Dating.</h2> -->
 												<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
-												<p class="text-white">Where age is more than just a number!</p>
+												<h5 class="text-white">Where age is more than just a number!</h5>
 												<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-6 col-12">
+									<!-- <div class="col-lg-6 col-12">
 										<div>
 											<img src="assets/images/mockups/mockup-2.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
-											<!-- <div class="banner__thumb--shape">
-												<div class="shapeimg shapeimg__one">
-													<img src="assets/images/banner/shape/home2/01.png" alt="dating thumb">
-												</div>
-												<div class="shapeimg shapeimg__two">
-													<img src="assets/images/banner/shape/home2/02.png" alt="dating thumb">
-												</div>
-												<div class="shapeimg shapeimg__three">
-													<img src="assets/images/banner/shape/home2/03.png" alt="dating thumb">
-												</div>
-											</div> -->
+
 										</div>
-									</div>
+									</div> -->
 						</div>
 					</div>
 			</div>
