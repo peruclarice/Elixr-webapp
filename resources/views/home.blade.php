@@ -190,546 +190,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<!-- <div class="about padding-top padding-bottom">
-		<div class="container">
-			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class = "primary-color">It All Starts With A Date</h2>
-				<p class = "text-white">Learn from them and try to make it to this board. This will for sure boost you visibility and increase your chances to find you loved one.</p>
-			</div>
-			<div class="section__wrapper">
-				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
-					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.5s">
-						<div class = "elixr-features">
-							<img src="assets/images/elixr-date.jpg" alt="Elixr Date">
-							<div class="about__item text-center">
-								<div class="about__inner about__inner_not">
-									<div class="about__content">
-										<h3>Elixr Date</h3>
-										<p>Members in Total</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.6s">
-					<div class = "elixr-features">
-							<img src="assets/images/elixr-friends.jpg" alt="Elixr Date">
-							<div class="about__item text-center">
-								<div class="about__inner about__inner_not">
-									<div class="about__content">
-										<h3>Elixr Friends</h3>
-										<p>Members in Total</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.7s">
-					<div class = "elixr-features">
-							<img src="assets/images/shop/01.jpg" alt="Elixr Date">
-							<div class="about__item text-center">
-								<div class="about__inner about__inner_not">
-									<div class="about__content">
-										<h3>Elixr Events</h3>
-										<p>Members in Total</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-    <!-- ================> About section end here <================== -->
 
-
-	<!-- ================> Story section start here <================== -->
-	<!-- <div class="story bg_img padding-top padding-bottom" style="background: transparent;">
-		<div class="container">
-			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class = "primary-color">Elixr Stories From Our Lovers</h2>
-				<p class="text-white">Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.</p>
-			</div>
-			<div class="section__wrapper">
-				<div class="row g-4 justify-content-center row-cols-lg-3 row-cols-sm-2 row-cols-1">
-					<div class="col wow fadeInUp" data-wow-duration="1.5s">
-						<div class="story__item">
-							<div class="story__inner">
-								<div class="story__thumb">
-									<a href="blog-single.html"><img src="assets/images/story/01.jpg" alt="dating thumb"></a>
-									<span class="member__activity member__activity--ofline">Entertainment</span>
-								</div>
-								<div class="story__content">
-									<a href="blog-single.html"><h4>Dream places and locations to visit in 2022</h4></a>
-									<div class="story__content--author">
-										<div class="story__content--thumb">
-											<img src="assets/images/story/author/01.jpg" alt="dating thumb">
-										</div>
-										<div class="story__content--content">
-											<h6>Hester Reeves</h6>
-											<p>April 16, 2022</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col wow fadeInUp" data-wow-duration="1.6s">
-						<div class="story__item">
-							<div class="story__inner">
-								<div class="story__thumb">
-									<a href="blog-single.html"><img src="assets/images/story/02.jpg" alt="dating thumb"></a>
-									<span class="member__activity member__activity--ofline">Love Stories</span>
-								</div>
-								<div class="story__content">
-									<a href="blog-single.html"><h4>Make your dreams come true and monetise quickly</h4></a>
-									<div class="story__content--author">
-										<div class="story__content--thumb">
-											<img src="assets/images/story/author/02.jpg" alt="dating thumb">
-										</div>
-										<div class="story__content--content">
-											<h6>Arika Q Smith</h6>
-											<p>March 14, 2022</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col wow fadeInUp" data-wow-duration="1.7s">
-						<div class="story__item">
-							<div class="story__inner">
-								<div class="story__thumb">
-									<a href="blog-single.html"><img src="assets/images/story/03.jpg" alt="dating thumb"></a>
-									<span class="member__activity member__activity--ofline">Attraction</span>
-								</div>
-								<div class="story__content">
-									<a href="blog-single.html"><h4>Love looks not with the eyes, but with the mind.</h4></a>
-									<div class="story__content--author">
-										<div class="story__content--thumb">
-											<img src="assets/images/story/author/03.jpg" alt="dating thumb">
-										</div>
-										<div class="story__content--content">
-											<h6>William Show</h6>
-											<p>June 18, 2022</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-    <!-- ================> Story section end here <================== -->
-
-
-    <!-- ================> Member section start here <================== -->
-	<!-- <div class="member member--style2 padding-top padding-bottom">
-		<div class="container">
-			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 style="color:var(--primary-color);">Most Popular Members</h2>
-				<p class="text-white">Learn from them and try to make it to this board. This will for sure boost you visibility and increase your chances to find you loved one.</p>
-			</div>
-			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
-				<ul class="nav nav-tabs member__tab" id="myTab" role="tablist">
-					<li class="nav-item" role="presentation">
-					  	<button class="nav-link active" id="newest-tab" data-bs-toggle="tab" data-bs-target="#newest" type="button" role="tab" aria-controls="newest" aria-selected="true">Newest Members</button>
-					</li>
-					<li class="nav-item" role="presentation">
-					  	<button class="nav-link" id="activemember-tab" data-bs-toggle="tab" data-bs-target="#activemember" type="button" role="tab" aria-controls="activemember" aria-selected="false">Active Members</button>
-					</li>
-					<li class="nav-item" role="presentation">
-					  	<button class="nav-link" id="popularmember-tab" data-bs-toggle="tab" data-bs-target="#popularmember" type="button" role="tab" aria-controls="popularmember" aria-selected="false">Popular Members</button>
-					</li>
-				</ul>
-
-				<div class="tab-content mx-12-none" id="myTabContent">
-					<div class="tab-pane fade show active" id="newest" role="tabpanel" aria-labelledby="newest-tab">
-						<div class="row g-0 justify-content-center">
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/01.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/03.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>William R Show</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/04.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/05.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/06.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/07.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Barros Pereira</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/08.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/09.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="activemember" role="tabpanel" aria-labelledby="activemember-tab">
-						<div class="row g-0 justify-content-center">
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/01.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/06.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/07.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Barros Pereira</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/08.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/09.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/03.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>William R Show</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/04.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/05.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="popularmember" role="tabpanel" aria-labelledby="popularmember-tab">
-						<div class="row g-0 justify-content-center">
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/04.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/05.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/06.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/07.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Barros Pereira</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/08.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/09.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/01.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity member__activity--ofline"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/03.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>William R Show</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-							<div class="member__item">
-								<div class="member__inner">
-									<div class="member__thumb">
-										<img src="assets/images/member/home2/02.jpg" alt="member-img">
-										<span class="member__activity"></span>
-									</div>
-									<div class="member__content">
-										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
-										<p>registered 4 months, 1 week ago</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="text-center mt-4">
-					<a href="members.html" class="default-btn"><span>See More Popular</span></a>
-				</div>
-			</div>
-		</div>
-	</div> -->
-    <!-- ================> Member section end here <================== -->
-	
 	<div class="about padding-top padding-bottom bg_img">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
@@ -737,161 +198,68 @@
 				<p class = "text-white">wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
 			</div>
 			<div class="section__wrapper">
-				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+
+				<div class="row g-4 justify-content-center align-items-center py-5">
+					<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+						<img src="assets/images/elixr-date.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
+					<div class="about__item text-center">
+					<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, praesentium! Vitae provident unde autem, sint repellat, aspernatur reprehenderit quae praesentium placeat porro molestias distinctio nihil, eligendi laboriosam perferendis eos doloremque odio eveniet.</p>
+						<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Check Us Out!</a>
+					</div>
+					</div>
+				</div>
+
+				<div class="row g-4 justify-content-center align-items-center py-5">
+					
+					<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
+					<div class="about__item text-center">
+					<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, praesentium! Vitae provident unde autem, sint repellat, aspernatur reprehenderit quae praesentium placeat porro molestias distinctio nihil, eligendi laboriosam perferendis eos doloremque odio eveniet.</p>
+						<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Check Us Out!</a>
+					</div>
+					</div>
+					<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+						<img src="assets/images/elixr-date.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+
+				<!-- <div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.5s">
 						<div class="about__item text-center">
 						<img src="assets/images/mockups/primary-container.png" alt="banner" style ="height: 500px; width: 100%; object-fit: contain;">
-							<!-- <div class="about__inner">
-								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Simple steps to follow to have a matching connection."</p>
-								</div>
-							</div> -->
+							
 						</div>
 					</div>
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.6s">
 						<div class="about__item text-center">
 						<img src="assets/images/mockups/connection.png" alt="banner" style ="height: 500px; width: 100%; object-fit: contain;">
-							<!-- <div class="about__inner">
-								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Create connections with users that are like you."</p>
-								</div>
-							</div> -->
+							
 						</div>
 					</div>
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.7s">
 						<div class="about__item text-center">
 						<img src="assets/images/mockups/connection-made.png" alt="banner" style ="height: 500px; width: 100%; object-fit: contain;">
-							<!-- <div class="about__inner">
-								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"Don’t waste your time! Find only what you are interested"</p>
-								</div>
-							</div> -->
+							
 						</div>
 					</div>
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.8s">
 						<div class="about__item text-center">
 						<img src="assets/images/mockups/dashboard.png" alt="banner" style ="height: 500px; width: 100%; object-fit: contain;">
-							<!-- <div class="about__inner">
 							
-								<div class="about__content">
-									<h4>John Doe</h4>
-									<p>"BuddyPress network is full of cool members."</p>
-								</div>
-							</div> -->
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
-
-	<!-- Transportation Section Start Here -->
-	<!-- <section class="transportation padding-top padding-bottom">
-		<div class="container">
-			<div class="section__wrapper">
-				<div class="row">
-					<div class="col-lg-4 col-12">
-						<div class="left">
-							<div class="section__header style-2 mb-lg-0 wow fadeInUp" data-wow-duration="1.5s">
-								<h2 style="color: var(--primary-color);">Meet Singles in Your Area</h2>
-								<p>If you want to meet local singles for dating, companionship, friendship or even more, you have come to the right place.</p>
-								<ul>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/01.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">United kingdom</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/02.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Germany</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/03.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">United states</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/04.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Brazil</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/05.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Falkland islands</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/06.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Portugal</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/07.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Australia</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/08.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">India</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/09.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">South Africa</a></div>
-									</li>
-									<li>
-										<div class="thumb"> <img src="assets/images/transport/10.jpg" alt="lab-trensport"></div>
-										<div class="content"><a href="members.html">Bangladesh</a></div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-8 col-12">
-						<div class="right wow fadeInUp" data-wow-duration="1.5s">
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">United kingdom</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">United states</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Falkland islands</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Australia</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">South Africa</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Germany</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Brazil</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Portugal</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">India</a></div>
-							</div>
-							<div class="lab-line">
-								<span></span>
-								<div class="lab-tooltip"><a href="members.html">Bangladesh</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- Transportation Section Ending Here -->
 
 
 	<!-- ================> Work section start here <================== -->
