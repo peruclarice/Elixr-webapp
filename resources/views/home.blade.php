@@ -51,7 +51,7 @@
     <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
     <!-- scrollToTop ending here -->
 
-	<div class = "elixr-hero-slideshow">
+	<!-- <div class = "elixr-hero-slideshow">
 	<ul class="slideshow">
 		<li><span>Image 01</span></li>
 		<li><span>Image 02</span></li>
@@ -60,7 +60,13 @@
 		<li><span>Image 05</span></li>
 		<li><span>Image 06</span></li>
 	</ul>
-	</div>
+	</div> -->
+
+	<video width="320" height="240" autoplay muted>
+  <source src="assets/videos/1.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+Your browser does not support the video tag.
+</video>
 
     <header class="header" id="navbar">
 	<div style ="height: 0.75vh; background : var(--primary-color);"></div>
