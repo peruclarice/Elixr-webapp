@@ -67,7 +67,7 @@
 						<div class="navbar-nav mainmenu">
 							<ul>
 								<li class="active">
-									<a href="#0">Home</a>
+									<a href="#0">About</a>
 									<!-- <ul>
 										<li><a href="index.html">Home Page One</a></li>
 										<li><a href="index-2.html" class="active">Home Page Two</a></li>
@@ -75,7 +75,7 @@
 									</ul> -->
 								</li>
 								<li>
-									<a href="#0">Dating Blog</a>
+									<a href="#0">Blog</a>
 									<!-- <ul>
 										<li><a href="about.html">About Us</a></li>
                                         <li><a href="membership.html">Membership</a></li>
@@ -94,7 +94,7 @@
 									</ul> -->
 								</li>
 								<li>
-									<a href="#0">Join Our Waitlist</a>
+									<a href="#0">Circles</a>
 									<!-- <ul>
 										<li><a href="shop.html">Product</a></li>
 										<li><a href="shop-single.html">Product Details</a></li>
@@ -138,9 +138,9 @@
 									<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
 										<div class="banner__title">
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
-											<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
+											<h2>Welcome to<span class="primary-color"> Elixr!</span></h2>
 											<p class="text-white">Where age is more than just a number!</p>
-											<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
+											<a href="membership.html" class="default-btn style-2 text-center"><span>Join Elixr</span></a>
 										</div>
 									</div>
 								</div>
@@ -179,11 +179,11 @@
 						<div class="col-lg-6">
 							<div class="about__right">
 								<div class="about__title">
-									<h2>Start Your Journey</h2>
+									<h2>You are Golden, now let's make you Shine 🌟</h2>
 								</div>
 								<div class="about__content">
-									<h3 style ="color: var(--primary-color);">Welcome To Our Elixr</h3>
-									<p class = "text-white">You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
+									<h3 style ="color: var(--primary-color);">Why Use Elixr?</h3>
+									<p class = "text-white"> There is a lot the world says about people in their 50s, but are they really right. we have studied older people long enough to know that you're not just matured, you are experienced, you are not just old, you are golden, let's show that side of you the world does not know.</p>
 								</div>
 							</div>
 						</div>
@@ -737,8 +737,8 @@
 	<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Other elixrs love our app…</h2>
-				<p class = "text-white">And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
+				<h2 class ="primary-color">Join Our Exclusive Community</h2>
+				<p class = "text-white">Our approach to dating is different, we understand the importance of human connection, we have tailored our app to give you the best experience.</p>
 			</div>
 			<div class="section__wrapper">
 				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
@@ -746,11 +746,11 @@
 						<div class="about__item text-center">
 							<div class="about__inner">
 								<div class="about__thumb">
-									<img src="assets/images/about/01.jpg" alt="dating thumb">
+									<img src="assets/images/app/Mr_Charles.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
 									<h4>Charles</h4>
-									<p>"Using Elixr is like starting afresh again, t only took me 5 minutes to set up a profile and start meeting people "</p>
+									<p>"Using Elixr is like starting afresh again, it took me 5 minutes to set up a profile and start meeting people "</p>
 								</div>
 							</div>
 						</div>
@@ -772,11 +772,11 @@
 						<div class="about__item text-center">
 							<div class="about__inner">
 								<div class="about__thumb">
-									<img src="assets/images/about/03.jpg" alt="dating thumb">
+									<img src="image/app/" alt="dating thumb">
 								</div>
 								<div class="about__content">
 									<h4>Mrs. Clarissa</h4>
-									<p>"There’s no way I would have been a "Mrs" without Elixr. I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
+									<p>" I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
 								</div>
 							</div>
 						</div>
@@ -785,7 +785,7 @@
 						<div class="about__item text-center">
 							<div class="about__inner">
 								<div class="about__thumb">
-									<img src="assets/images/about/04.jpg" alt="dating thumb">
+									<img src="assets/image/app/kwame.jpg" alt="dating thumb">
 								</div>
 								<div class="about__content">
 									<h4>Kwame</h4>
@@ -803,8 +803,8 @@
 	<div class="about padding-top padding-bottom bg_img">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Explore the "Elixr" 💎Experience</h2>
-				<p class = "text-white">wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
+				<h2 class ="primary-color">Explore the "Elixr"💎Experience</h2>
+				<p class = "text-white">Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
 			</div>
 			<div class="section__wrapper">
 				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
