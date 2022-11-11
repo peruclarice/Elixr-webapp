@@ -51,8 +51,12 @@
     <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
     <!-- scrollToTop ending here -->
 
-	<video autoplay muted loop id="myVideo">
-		<source src="assets/images/new_bg.mp4" type="video/mp4">
+	<video autoplay muted loop id="myVideo1" class="myVideo">
+		<source src="assets/images/new_bg.mp4" type="video/mp4" >
+	</video>
+
+	<video autoplay muted loop id="myVideo2" class="myVideo">
+		<source src="assets/images/potrait.mp4" type="video/mp4" >
 	</video>
 	
     <div class="ontop">
