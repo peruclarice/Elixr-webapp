@@ -191,12 +191,21 @@ svg {
   height: 100%;
 }
 
-.elixr-hero-slideshow .slideshow::after {
-  content: "";
+#myVideo {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.ontop {
+  z-index: 1500;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.36);
 }/*# sourceMappingURL=custom.css.map */

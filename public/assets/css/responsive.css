@@ -191,13 +191,19 @@ svg {
   height: 100%;
 }
 
-.elixr-hero-slideshow .slideshow::after {
+#myVideo {
   position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.ontop {
+  z-index: 1500;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.36);
 }
 
 @media screen and (min-width: 992px) {

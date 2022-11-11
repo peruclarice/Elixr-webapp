@@ -51,132 +51,111 @@
     <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
     <!-- scrollToTop ending here -->
 
-	<!-- <div class = "elixr-hero-slideshow">
-	<ul class="slideshow">
-		<li><span>Image 01</span></li>
-		<li><span>Image 02</span></li>
-		<li><span>Image 03</span></li>
-		<li><span>Image 04</span></li>
-		<li><span>Image 05</span></li>
-		<li><span>Image 06</span></li>
-	</ul>
-	</div> -->
-
-	<video width="320" height="240" autoplay muted>
-  <source src="assets/videos/1.mp4" type="video/mp4">
-  <!-- <source src="movie.ogg" type="video/ogg"> -->
-Your browser does not support the video tag.
-</video>
-
-    <header class="header" id="navbar">
-	<div style ="height: 0.75vh; background : var(--primary-color);"></div>
-		<div class="header__bottom">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg">
-					<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
-					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler--icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-						<div class="navbar-nav mainmenu">
-							<ul>
-								<li class="active">
-									<a href="#0">Home</a>
-									<!-- <ul>
-										<li><a href="index.html">Home Page One</a></li>
-										<li><a href="index-2.html" class="active">Home Page Two</a></li>
-										<li><a href="index-3.html">Home Page Three</a></li>
-									</ul> -->
-								</li>
-								<li>
-									<a href="#0">Dating Blog</a>
-									<!-- <ul>
-										<li><a href="about.html">About Us</a></li>
-                                        <li><a href="membership.html">Membership</a></li>
-                                        <li><a href="comingsoon.html">comingsoon</a></li>
-                                        <li><a href="404.html">404</a></li>
-									</ul> -->
-								</li>
-								<li>
-									<a href="#0">Events</a>
-									<!-- <ul>
-										<li><a href="community.html">Community</a></li>
-										<li><a href="group.html">All Group</a></li>
-										<li><a href="members.html">All Members</a></li>
-										<li><a href="activity.html">Activity</a></li>
-
-									</ul> -->
-								</li>
-								<li>
-									<a href="#0">Join Our Waitlist</a>
-									<!-- <ul>
-										<li><a href="shop.html">Product</a></li>
-										<li><a href="shop-single.html">Product Details</a></li>
-										<li><a href="shop-cart.html">Product Cart</a></li>
-									</ul> -->
-								</li>
-								<!-- <li>
-									<a href="#0">Blogs</a>
-									<ul>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="blog-2.html">Blog Style Two</a></li>
-										<li><a href="blog-single.html">Blog Details</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">contact</a></li> -->
-							</ul>
-						</div>
-						<!-- <div class="header__more">
-                            <button class="default-btn dropdown-toggle" type="button" id="moreoption" data-bs-toggle="dropdown" aria-expanded="false">My Account</button>
-                            <ul class="dropdown-menu" aria-labelledby="moreoption">
-                                <li><a class="dropdown-item" href="login.html">Log In</a></li>
-                                <li><a class="dropdown-item" href="register.html">Sign Up</a></li>
-                            </ul>
-						</div> -->
-					</div>
-				</nav>
-			</div>
-		</div>
-    </header>
-
-
+	<video autoplay muted loop id="myVideo">
+		<source src="assets/images/sample_bg.mp4" type="video/mp4">
+	</video>
 	
-    
-<!-- ================> Banner section start here <================== -->
-	<div class="banner banner--style2 padding-top bg_img elixr-hero">
-		<div class="container">
-			<div class="banner__wrapper">
-				<div class="row g-0 justify-content-center align-items-center">
-								<div class="col-lg-6 col-12">
-									<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
-										<div class="banner__title">
-											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
-											<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
-											<p class="text-white">Where age is more than just a number!</p>
-											<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
-										</div>
-									</div>
+    <div class="ontop">
+		<header class="header" id="navbar">
+			<div style ="height: 0.75vh; background : var(--primary-color);"></div>
+				<div class="header__bottom">
+					<div class="container">
+						<nav class="navbar navbar-expand-lg">
+							<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
+							<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<span class="navbar-toggler--icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+								<div class="navbar-nav mainmenu">
+									<ul>
+										<li class="active">
+											<a href="#0">Home</a>
+											<!-- <ul>
+												<li><a href="index.html">Home Page One</a></li>
+												<li><a href="index-2.html" class="active">Home Page Two</a></li>
+												<li><a href="index-3.html">Home Page Three</a></li>
+											</ul> -->
+										</li>
+										<li>
+											<a href="#0">Dating Blog</a>
+											<!-- <ul>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="membership.html">Membership</a></li>
+												<li><a href="comingsoon.html">comingsoon</a></li>
+												<li><a href="404.html">404</a></li>
+											</ul> -->
+										</li>
+										<li>
+											<a href="#0">Events</a>
+											<!-- <ul>
+												<li><a href="community.html">Community</a></li>
+												<li><a href="group.html">All Group</a></li>
+												<li><a href="members.html">All Members</a></li>
+												<li><a href="activity.html">Activity</a></li>
+
+											</ul> -->
+										</li>
+										<li>
+											<a href="#0">Join Our Waitlist</a>
+											<!-- <ul>
+												<li><a href="shop.html">Product</a></li>
+												<li><a href="shop-single.html">Product Details</a></li>
+												<li><a href="shop-cart.html">Product Cart</a></li>
+											</ul> -->
+										</li>
+										<!-- <li>
+											<a href="#0">Blogs</a>
+											<ul>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog-2.html">Blog Style Two</a></li>
+												<li><a href="blog-single.html">Blog Details</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">contact</a></li> -->
+									</ul>
 								</div>
-								<div class="col-lg-6 col-12">
-									<div>
-										<img src="assets/images/mockups/mockup-2.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
-										<!-- <div class="banner__thumb--shape">
-											<div class="shapeimg shapeimg__one">
-												<img src="assets/images/banner/shape/home2/01.png" alt="dating thumb">
-											</div>
-											<div class="shapeimg shapeimg__two">
-												<img src="assets/images/banner/shape/home2/02.png" alt="dating thumb">
-											</div>
-											<div class="shapeimg shapeimg__three">
-												<img src="assets/images/banner/shape/home2/03.png" alt="dating thumb">
-											</div>
-										</div> -->
-									</div>
-								</div>
+								<!-- <div class="header__more">
+									<button class="default-btn dropdown-toggle" type="button" id="moreoption" data-bs-toggle="dropdown" aria-expanded="false">My Account</button>
+									<ul class="dropdown-menu" aria-labelledby="moreoption">
+										<li><a class="dropdown-item" href="login.html">Log In</a></li>
+										<li><a class="dropdown-item" href="register.html">Sign Up</a></li>
+									</ul>
+								</div> -->
+							</div>
+						</nav>
 					</div>
 				</div>
+		</header>
+
+
+		
+		
+	<!-- ================> Banner section start here <================== -->
+		<div class="banner banner--style2 padding-top bg_img elixr-hero">
+			<div class="container">
+				<div class="banner__wrapper">
+					<div class="row g-0 justify-content-center align-items-center">
+									<div class="col-lg-12 col-12 text-center">
+										<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
+											<div class="banner__title">
+												<!-- <h2>New Places, Unforgettable Dating.</h2> -->
+												<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
+												<h5 class="text-white">Where age is more than just a number!</h5>
+												<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="col-lg-6 col-12">
+										<div>
+											<img src="assets/images/mockups/mockup-2.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+
+										</div>
+									</div> -->
+						</div>
+					</div>
+			</div>
 		</div>
 	</div>
     <!-- ================> Banner section end here <================== -->
@@ -746,74 +725,6 @@ Your browser does not support the video tag.
 		</div>
 	</div> -->
     <!-- ================> Member section end here <================== -->
-
-
-	<!-- ================> About section start here <================== -->
-	<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
-		<div class="container">
-			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Other elixrs love our app…</h2>
-				<p class = "text-white">And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
-			</div>
-			<div class="section__wrapper">
-				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
-					<div class="col wow fadeInUp" data-wow-duration="1.5s">
-						<div class="about__item text-center">
-							<div class="about__inner">
-								<div class="about__thumb">
-									<img src="assets/images/about/01.jpg" alt="dating thumb">
-								</div>
-								<div class="about__content">
-									<h4>Charles</h4>
-									<p>"Using Elixr is like starting afresh again, t only took me 5 minutes to set up a profile and start meeting people "</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col wow fadeInUp" data-wow-duration="1.6s">
-						<div class="about__item text-center">
-							<div class="about__inner">
-								<div class="about__thumb">
-									<img src="assets/images/about/02.jpg" alt="dating thumb">
-								</div>
-								<div class="about__content">
-									<h4>Adelle</h4>
-									<p>"I love how easy it is to see events in my city, and even view events in other countries when I travel"</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col wow fadeInUp" data-wow-duration="1.7s">
-						<div class="about__item text-center">
-							<div class="about__inner">
-								<div class="about__thumb">
-									<img src="assets/images/about/03.jpg" alt="dating thumb">
-								</div>
-								<div class="about__content">
-									<h4>Mrs. Clarissa</h4>
-									<p>"There’s no way I would have been a "Mrs" without Elixr. I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col wow fadeInUp" data-wow-duration="1.8s">
-						<div class="about__item text-center">
-							<div class="about__inner">
-								<div class="about__thumb">
-									<img src="assets/images/about/04.jpg" alt="dating thumb">
-								</div>
-								<div class="about__content">
-									<h4>Kwame</h4>
-									<p>"I love golfing, Elixr helps me find people who love golfing and even helps me plan events  so I have something to look forward to every weekend"</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-    <!-- ================> About section end here <================== -->
 	
 	<div class="about padding-top padding-bottom bg_img">
 		<div class="container">
@@ -1027,6 +938,72 @@ Your browser does not support the video tag.
 	</div>
     <!-- ================> Work section end here <================== -->
 
+	<!-- ================> About section start here <================== -->
+	<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2 class ="primary-color">Other elixrs love our app…</h2>
+				<p class = "text-white">And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
+			</div>
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+					<div class="col wow fadeInUp" data-wow-duration="1.5s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/01.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Charles</h4>
+									<p>"Using Elixr is like starting afresh again, t only took me 5 minutes to set up a profile and start meeting people "</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.6s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/02.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Adelle</h4>
+									<p>"I love how easy it is to see events in my city, and even view events in other countries when I travel"</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.7s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/03.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Mrs. Clarissa</h4>
+									<p>"There’s no way I would have been a "Mrs" without Elixr. I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.8s">
+						<div class="about__item text-center">
+							<div class="about__inner">
+								<div class="about__thumb">
+									<img src="assets/images/about/04.jpg" alt="dating thumb">
+								</div>
+								<div class="about__content">
+									<h4>Kwame</h4>
+									<p>"I love golfing, Elixr helps me find people who love golfing and even helps me plan events  so I have something to look forward to every weekend"</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- ================> About section end here <================== -->
 
     <!-- ================> App section start here <================== -->
 	<div class="app app--style2 padding-top padding-bottom">
