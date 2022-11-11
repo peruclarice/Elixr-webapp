@@ -52,7 +52,7 @@
     <!-- scrollToTop ending here -->
 
 	<video autoplay muted loop id="myVideo">
-		<source src="assets/images/sample_bg.mp4" type="video/mp4">
+		<source src="assets/images/new_bg.mp4" type="video/mp4">
 	</video>
 	
     <div class="ontop">
