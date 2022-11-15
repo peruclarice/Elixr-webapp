@@ -220,7 +220,7 @@
 			</div>
 			<div class="section__wrapper">
 
-				<div class="row g-4 justify-content-center align-items-center py-5 flx-rev">
+				<div class="row g-4 justify-content-center align-items-center py-5">
 					<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 						<div class="about__item text-center">
 						<img src="assets/images/elixr-date.jpg" alt="">
@@ -235,7 +235,7 @@
 					</div>
 				</div>
 
-				<div class="row g-4 justify-content-center align-items-center py-5">
+				<div class="row g-4 justify-content-center align-items-center py-5 flx-rev">
 					
 					<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
 					<div class="about__item text-center">
@@ -492,10 +492,11 @@
 										</div>
 										<div class="footer__content--desc">
 											<!-- Ozioma, edit the contents directly in the tag below -->
-											<p>Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
+											<p class="text-white">Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
 										</div>
 										<!-- Ozioma, edit the contents directly in the tag below -->
-										<div class="footer__content--info">Aluguntugui St, Accra<p>
+										<div class="footer__content--info">
+											<p><b>Location :</b> Aluguntugui St, Accra</p>
 											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
 											<p><b>Contact :</b> +30 226 4881 514 www.dateonelixr.com</p>
 										</div>
@@ -621,9 +622,9 @@
 								<div class="footer__newsletter--social">
 									<ul>
 										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+										{{-- <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li> --}}
 										<li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
 									</ul>
 								</div>
