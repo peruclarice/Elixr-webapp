@@ -16,7 +16,9 @@ final call to action should be added here
 							<h4>Download the Elixr App Today!</h4>
 							<h2>You are one step away from your life of your dreams</h2>
 							<!-- Ozioma, edit the contents directly in the tag below -->
-							<p>Make the rest of your life the best of your life by exploring events and places with  the right people. You have spent the first half of your life giving so much to the world, i’s time for you to enjoy the rest of your life with the people you love ❤️❤️</p>
+							<p>Make the rest of your life the best of your life by exploring events and places with  the right people. 
+								
+							You spent the first half of your life giving so much to the world, it’s time for you to enjoy the rest of your life with the people you love ❤️</p>
 							<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
 						</div>
 					</div>

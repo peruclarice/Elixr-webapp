@@ -38,6 +38,9 @@ hero should be added here
 										<a href="#0">Events</a>
 									</li>
 									<li>
+										<a href="#0">FAQ</a>
+									</li>
+									<li>
 										<a href="#0">Join Our Waitlist</a>
 									</li>
 								</ul>
@@ -60,9 +63,9 @@ hero should be added here
 									<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
 										<div class="banner__title">
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
-											<h2>Welcome to your <span class="primary-color"> Elixr!</span></h2>
+											<h2>Welcome to <span class="primary-color"> Elixr!</span></h2>
 											<h5 class="text-white">Where age is more than just a number!</h5>
-											<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
+											<a href="membership.html" class="default-btn style-2 text-center"><span>Join our Community</span></a>
 										</div>
 									</div>
 								</div>
@@ -87,9 +90,14 @@ hero should be added here
 						<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 							<div class="app__inner">
 								<div class="app__content">
-									<h4>Welcome To Our Elixr</h4>
-									<h2>Start Your Journey</h2>
-									<p >You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
+									<h4>Explore Exclusive Dating with Elixr </h4>
+
+									<p >At Elixr, we believe age should not hinder anyone from forming new friendships and relationships in life.
+										
+									We built Elixr, after witnessing our loved ones go through the stigma and loneliness that comes with aging and retirement. Learn how Elixr is helping older adults create meaningful connections </p>
+
+									
+							<a href="membership.html" class="default-btn style-2 text-center"><span>Learn More</span></a>
 								</div>
 							</div>
 						</div>

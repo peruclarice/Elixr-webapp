@@ -12,10 +12,11 @@ value proposition should be added here
 		<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 			<div class="app__inner">
 				<div class="app__content">
-					<!-- Ozioma, edit the contents directly in the tag below -->
-					<h4>Welcome To Our Elixr</h4>
-					<h2>Explore the "Elixr" 💎Experience</h2>
+					<!-- Value Preposition Page Starts Here -->
+					<h2>Explore the "Elixr" 💎 Experience</h2>
+
 					<p>Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
+					
 				</div>
 			</div>
 		</div>
@@ -24,14 +25,14 @@ value proposition should be added here
 			<div class="row g-4 justify-content-center align-items-center py-5">
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/elixr-date.jpg" alt="">
+					<img src="assets/images/value_preposition1.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
 				<div class="about__item text-center">
-				<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, praesentium! Vitae provident unde autem, sint repellat, aspernatur reprehenderit quae praesentium placeat porro molestias distinctio nihil, eligendi laboriosam perferendis eos doloremque odio eveniet.</p>
-					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Check Us Out!</a>
+				<h3>Meet Real People, Form Genuine Connections</h3>
+					<p>Do you worry that people are not as true as they look on dating apps, witrh Elixr, you no longer have to spot faking dating profiles, every new person on our platform is verified before allowed on the platform</p>
+					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Download Elixr</a>
 				</div>
 				</div>
 			</div>
@@ -40,14 +41,14 @@ value proposition should be added here
 				
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
 				<div class="about__item text-center">
-				<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, praesentium! Vitae provident unde autem, sint repellat, aspernatur reprehenderit quae praesentium placeat porro molestias distinctio nihil, eligendi laboriosam perferendis eos doloremque odio eveniet.</p>
-					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Check Us Out!</a>
+				<h3>Built for Ease, Designed for Comfort.</h3>
+					<p>Whether you are video calling your date, or chatting with your friends or getting reminders on physical dates, our mobile app makes it possible for you to do all these without barrier. We built Elixr with you in mind, designed for comfort and ease</p>
+					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Download Elixr</a>
 				</div>
 				</div>
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/elixr-date.jpg" alt="">
+					<img src="assets/images/value_preposition2.jpg" alt="">
 					</div>
 				</div>
 			</div>
