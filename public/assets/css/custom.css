@@ -2,6 +2,9 @@ body {
   color: #f6f6f6;
   background-color: #060606;
 }
+body a:hover {
+  color: #E3A80F;
+}
 
 .header__more .default-btn,
 .default-btn.style-2 {
@@ -13,6 +16,7 @@ body {
 }
 .mainmenu ul li.active > a {
   color: #E3A80F;
+  text-decoration: none;
 }
 .mainmenu ul li:hover > a {
   color: #E3A80F;
@@ -226,4 +230,10 @@ svg {
   z-index: 1500;
   position: relative;
   background-color: rgba(47, 46, 16, 0.36);
+}
+
+.flx-rev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=custom.css.map */

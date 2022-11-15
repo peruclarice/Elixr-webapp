@@ -166,16 +166,27 @@
 
 
     <!-- ================> About section start here <================== -->
-	<div class="elixir-section">
+	<div class="elixir-section padding-top padding-bottom">
 		<div class="about pt-xl-0">
 			<div class="container">
 				<div class="section__wrapper">
-					<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center">
+					<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center flx-rev">
 						<div class="col-lg-6">
-							<img src="assets/images/mockups/mockup-3.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+							<img src="assets/images/mockups/home.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
 						</div>
 						<div class="col-lg-6">
-							<div class="about__right">
+							<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+								<div class="app__inner">
+									<div class="app__content">
+										<!-- Ozioma, edit the contents directly in the tag below -->
+										<h4>Welcome To Our Elixr</h4>
+										<h2>Start Your Journey</h2>
+										<p>text-white">You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
+									</div>
+								</div>
+							</div>
+
+							{{-- <div class="about__right">
 								<div class="about__title">
 									<h2>Start Your Journey</h2>
 								</div>
@@ -183,7 +194,7 @@
 									<h3 style ="color: var(--primary-color);">Welcome To Our Elixr</h3>
 									<p class = "text-white">You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
 								</div>
-							</div>
+							</div> --}}
 						</div>
 					</div>
 				</div>
@@ -193,13 +204,23 @@
 
 	<div class="about padding-top padding-bottom bg_img">
 		<div class="container">
-			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+			{{-- <div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 				<h2 class ="primary-color">Explore the "Elixr" 💎Experience</h2>
 				<p class = "text-white">wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
+			</div> --}}
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<div class="app__inner">
+					<div class="app__content">
+						<!-- Ozioma, edit the contents directly in the tag below -->
+						<h4>Welcome To Our Elixr</h4>
+						<h2>Explore the "Elixr" 💎Experience</h2>
+						<p>Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
+					</div>
+				</div>
 			</div>
 			<div class="section__wrapper">
 
-				<div class="row g-4 justify-content-center align-items-center py-5">
+				<div class="row g-4 justify-content-center align-items-center py-5 flx-rev">
 					<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 						<div class="about__item text-center">
 						<img src="assets/images/elixr-date.jpg" alt="">
@@ -267,9 +288,17 @@
 		<div class="container">
 			<div class="section__wrapper">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Rejuvenate your Dating Life </h2>
-				<!-- Ozioma, edit the contents directly in the tag below -->
-				<p class = "text-white">For Us, Saftey is our first priority, follow the Exlir Blog for tips and tricks to stay safe as you add some spice to your life. </p>
+				<div class="app__inner">
+					<div class="app__content">
+						<!-- Ozioma, edit the contents directly in the tag below -->
+						<h4>Download the Elixr App Today!</h4>
+						<h2>Rejuvenate your Dating Life</h2>
+						<p>For Us, Saftey is our first priority, follow the Exlir Blog for tips and tricks to stay safe as you add some spice to your life.</p>
+					</div>
+				</div>
+
+				{{-- <h2 class ="primary-color">Rejuvenate your Dating Life </h2>
+				<p class = "text-white">For Us, Saftey is our first priority, follow the Exlir Blog for tips and tricks to stay safe as you add some spice to your life. </p> --}}
 			</div>
 				<div class="row g-4 justify-content-center">
 					<div class="col-xl-6 col-lg-8 col-12 wow fadeInLeft" data-wow-duration="1.5s">
@@ -314,8 +343,13 @@
 	<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Other elixrs love our app…</h2>
-				<p class = "text-white">And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
+				<div class="app__inner">
+					<div class="app__content">
+						<h4>Download the Elixr App Today!</h4>
+						<h2>See what our Elixrs are saying</h2>
+						<p>And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
+					</div>
+				</div>
 			</div>
 			<div class="section__wrapper">
 				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
@@ -380,7 +414,7 @@
     <!-- ================> App section start here <================== -->
 	<div class="app app--style2 padding-top padding-bottom">
 		<div class="container">
-			<div class="row g-4 justify-content-center">
+			<div class="row g-4 justify-content-center flx-rev">
 				<div class = "col-lg-6">
 					<img src="assets/images/mockups/mockup-1.png" alt="Join Waiting list Image" style = "height: 600px; width: 100%; object-fit: contain;">
 				</div>
@@ -392,11 +426,7 @@
 								<h2>You are one step away from your life of your dreams</h2>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p>Make the rest of your life the best of your life by exploring events and places with  the right people. You have spent the first half of your life giving so much to the world, i’s time for you to enjoy the rest of your life with the people you love ❤️❤️</p>
-								<ul>
-									<li><a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a></li>
-									<!-- <li><a href="#"><img src="assets/images/app/01.jpg" alt="dating thumb"></a></li>
-									<li><a href="#"><img src="assets/images/app/02.jpg" alt="dating thumb"></a></li> -->
-								</ul>
+								<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
 							</div>
 						</div>
 					</div>
