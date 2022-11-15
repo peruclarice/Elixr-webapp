@@ -15,5 +15,8 @@
 @include('layout.landing-page.cta')
 
 
+@include('layout.landing-page.faq')
+
+
 @endsection
 

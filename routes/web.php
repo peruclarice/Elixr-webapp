@@ -9,13 +9,29 @@ use Illuminate\Support\Facades\Route;
 |
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| contains the 'web' middleware group. Now create something great!
 |
 */
 
 Route::get('/', function () {
     // return view('welcome');
-    return view('home');
+    $faqs= [
+        'data'=>[
+            [
+                'Question'=>'Question 1',
+                'Answer'=>'Answer1 You need to be atleast 50 years of age',
+            ],
+            [
+                'Question'=>'Question 2',
+                'Answer'=>' Answer 2You need to be atleast 50 years of age',
+            ],
+            [
+                'Question'=>'Question 3',
+                'Answer'=>'Answer 3You need to be atleast 50 years of age',
+            ],
+        ]        
+    ];
+    return view('home',$faqs);
 });
 Route::get('/home', function () {
     // return view('welcome');
