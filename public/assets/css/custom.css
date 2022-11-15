@@ -246,4 +246,16 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.accordion-item {
+  border: 1px solid white;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #E3A80F;
+  background-color: #fff9e7;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
 }/*# sourceMappingURL=custom.css.map */

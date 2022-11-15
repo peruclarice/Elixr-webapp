@@ -37,7 +37,7 @@
 												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Our Team</a></li>
 												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Testimonials</a></li>
 												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Get in Touch</a></li>
-												<li><a href="#"><i class="fa-solid fa-angle-right"></i> FAQ</a></li>
+												{{-- <li><a href="#"><i class="fa-solid fa-angle-right"></i> FAQ</a></li> --}}
 											</ul>
 										</div>
 									</div>

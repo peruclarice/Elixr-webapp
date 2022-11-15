@@ -6,9 +6,18 @@ body a:hover {
   color: #E3A80F;
 }
 
-.header__more .default-btn,
-.default-btn.style-2 {
+.header__more .default-btn, .default-btn {
+  color: #fff;
+}
+.header__more .default-btn.style-2, .default-btn.style-2 {
   background: linear-gradient(135deg, #EDC111, #E3A80F);
+}
+.header__more .default-btn:hover, .default-btn:hover {
+  box-shadow: var(--shadow);
+  color: #fff;
+}
+.header__more .default-btn:hover span, .default-btn:hover span {
+  color: #fff;
 }
 
 .mainmenu ul li a {
@@ -50,6 +59,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 p {
   color: #555555;
+  font-weight: 400;
 }
 
 .shop-cart .section-wrapper .cart-top table tbody tr td.product-item .p-content a, .widget.shop-widget .widget-wrapper .shop-menu li a, .footer--style2 .footer__content--desc ul li a, .footer--style2 .footer__content--title h4, .footer--style2 .footer__newsletter--form form input, .footer--style2 .footer__newsletter--title h4, .banner__content h2, .default-pagination li a {
