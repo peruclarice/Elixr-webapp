@@ -16,6 +16,7 @@ body a:hover {
 }
 .mainmenu ul li.active > a {
   color: #E3A80F;
+  text-decoration: none;
 }
 .mainmenu ul li:hover > a {
   color: #E3A80F;
