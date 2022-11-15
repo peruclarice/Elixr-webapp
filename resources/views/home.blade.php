@@ -166,25 +166,34 @@
     <!-- ================> Banner section end here <================== -->
 
 
-    <!-- ================> Why Elixr <================== -->
+    <!-- ================> About section start here <================== -->
 	<div class="elixir-section">
 		<div class="about pt-xl-0">
 			<div class="container">
 				<div class="section__wrapper">
-					<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center">
+					<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center flx-rev">
 						<div class="col-lg-6">
-							<img src="assets/images/mockups/mockup-3.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+							<img src="assets/images/mockups/home.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
 						</div>
 						<div class="col-lg-6">
-							<div class="about__right">
+							<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+								<div class="app__inner">
+									<div class="app__content">
+										<!-- Ozioma, edit the contents directly in the tag below -->
+										<h4>Welcome To Our Elixr</h4>
+										<h2>Start Your Journey</h2>
+										<p>text-white">You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
+									</div>
+								</div>
+							</div>
+
+							{{-- <div class="about__right">
 								<div class="about__title">
 									<h2>Why Elixr?</h2>
 								</div>
 								<div class="about__content">
-									<h3 style ="color: var(--primary-color);">Because you are Golden </h3>
-									<p class = "text-white"> And Elixr makes you shine. We know what the World expects from older people. But who says you cant have fun simply because you are in your golden years. 
-									
-									We value your experience, to us, you are not just old, you are golden, let's show the side of you the world does not know.</p>
+									<h3 style ="color: var(--primary-color);">Welcome To Our Elixr</h3>
+									<p class = "text-white">You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!</p>
 								</div>
 							</div>
 						</div>
@@ -194,11 +203,552 @@
 		</div>
 	</div>
 	
+	<!-- <div class="about padding-top padding-bottom">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2 class = "primary-color">It All Starts With A Date</h2>
+				<p class = "text-white">Learn from them and try to make it to this board. This will for sure boost you visibility and increase your chances to find you loved one.</p>
+			</div>
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.5s">
+						<div class = "elixr-features">
+							<img src="assets/images/elixr-date.jpg" alt="Elixr Date">
+							<div class="about__item text-center">
+								<div class="about__inner about__inner_not">
+									<div class="about__content">
+										<h3>Elixr Date</h3>
+										<p>Members in Total</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.6s">
+					<div class = "elixr-features">
+							<img src="assets/images/elixr-friends.jpg" alt="Elixr Date">
+							<div class="about__item text-center">
+								<div class="about__inner about__inner_not">
+									<div class="about__content">
+										<h3>Elixr Friends</h3>
+										<p>Members in Total</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 wow fadeInUp" data-wow-duration="1.7s">
+					<div class = "elixr-features">
+							<img src="assets/images/shop/01.jpg" alt="Elixr Date">
+							<div class="about__item text-center">
+								<div class="about__inner about__inner_not">
+									<div class="about__content">
+										<h3>Elixr Events</h3>
+										<p>Members in Total</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+    <!-- ================> About section end here <================== -->
+
+
+	<!-- ================> Story section start here <================== -->
+	<!-- <div class="story bg_img padding-top padding-bottom" style="background: transparent;">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2 class = "primary-color">Elixr Stories From Our Lovers</h2>
+				<p class="text-white">Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.</p>
+			</div>
+			<div class="section__wrapper">
+				<div class="row g-4 justify-content-center row-cols-lg-3 row-cols-sm-2 row-cols-1">
+					<div class="col wow fadeInUp" data-wow-duration="1.5s">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/01.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Entertainment</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Dream places and locations to visit in 2022</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/01.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>Hester Reeves</h6>
+											<p>April 16, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.6s">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/02.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Love Stories</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Make your dreams come true and monetise quickly</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/02.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>Arika Q Smith</h6>
+											<p>March 14, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col wow fadeInUp" data-wow-duration="1.7s">
+						<div class="story__item">
+							<div class="story__inner">
+								<div class="story__thumb">
+									<a href="blog-single.html"><img src="assets/images/story/03.jpg" alt="dating thumb"></a>
+									<span class="member__activity member__activity--ofline">Attraction</span>
+								</div>
+								<div class="story__content">
+									<a href="blog-single.html"><h4>Love looks not with the eyes, but with the mind.</h4></a>
+									<div class="story__content--author">
+										<div class="story__content--thumb">
+											<img src="assets/images/story/author/03.jpg" alt="dating thumb">
+										</div>
+										<div class="story__content--content">
+											<h6>William Show</h6>
+											<p>June 18, 2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+    <!-- ================> Story section end here <================== -->
+
+
+    <!-- ================> Member section start here <================== -->
+	<!-- <div class="member member--style2 padding-top padding-bottom">
+		<div class="container">
+			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+				<h2 style="color:var(--primary-color);">Most Popular Members</h2>
+				<p class="text-white">Learn from them and try to make it to this board. This will for sure boost you visibility and increase your chances to find you loved one.</p>
+			</div>
+			<div class="section__wrapper wow fadeInUp" data-wow-duration="1.5s">
+				<ul class="nav nav-tabs member__tab" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+					  	<button class="nav-link active" id="newest-tab" data-bs-toggle="tab" data-bs-target="#newest" type="button" role="tab" aria-controls="newest" aria-selected="true">Newest Members</button>
+					</li>
+					<li class="nav-item" role="presentation">
+					  	<button class="nav-link" id="activemember-tab" data-bs-toggle="tab" data-bs-target="#activemember" type="button" role="tab" aria-controls="activemember" aria-selected="false">Active Members</button>
+					</li>
+					<li class="nav-item" role="presentation">
+					  	<button class="nav-link" id="popularmember-tab" data-bs-toggle="tab" data-bs-target="#popularmember" type="button" role="tab" aria-controls="popularmember" aria-selected="false">Popular Members</button>
+					</li>
+				</ul>
+
+				<div class="tab-content mx-12-none" id="myTabContent">
+					<div class="tab-pane fade show active" id="newest" role="tabpanel" aria-labelledby="newest-tab">
+						<div class="row g-0 justify-content-center">
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/01.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/03.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>William R Show</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/04.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/05.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/06.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/07.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Barros Pereira</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/08.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/09.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="activemember" role="tabpanel" aria-labelledby="activemember-tab">
+						<div class="row g-0 justify-content-center">
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/01.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/06.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/07.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Barros Pereira</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/08.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/09.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/03.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>William R Show</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/04.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/05.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="popularmember" role="tabpanel" aria-labelledby="popularmember-tab">
+						<div class="row g-0 justify-content-center">
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/04.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Karolin Kuhn</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/05.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Tobias Wagner</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/06.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Amanda Rodrigues</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/07.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Barros Pereira</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/08.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Emily Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/09.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Alves Fernandes</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/01.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Smith Jhonson</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity member__activity--ofline"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Arika Q Smith</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/03.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>William R Show</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+							<div class="member__item">
+								<div class="member__inner">
+									<div class="member__thumb">
+										<img src="assets/images/member/home2/02.jpg" alt="member-img">
+										<span class="member__activity"></span>
+									</div>
+									<div class="member__content">
+										<a href="member-single.html"><h5>Sousa Carvalho</h5></a>
+										<p>registered 4 months, 1 week ago</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-4">
+					<a href="members.html" class="default-btn"><span>See More Popular</span></a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+    <!-- ================> Member section end here <================== -->
+
+
+	<!-- ================> About section start here <================== -->
 	<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Experience Dating Like Never Before</h2>
-				<p class = "text-white">Our approach to dating is different, we understand the importance of human connection, we have tailored our app to give you the best experience.</p>
+				<h2 class ="primary-color">Other elixrs love our app…</h2>
+				<p class = "text-white">And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
 			</div>
 			<div class="section__wrapper">
 				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
@@ -258,13 +808,13 @@
 			</div>
 		</div>
 	</div>
-    <!-- ================> Section: Value Preposition <================== -->
+    <!-- ================> About section end here <================== -->
 	
 	<div class="about padding-top padding-bottom bg_img">
 		<div class="container">
 			<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
-				<h2 class ="primary-color">Explore the "Elixr"💎 Experience</h2>
-				<p class = "text-white">Wherever you are, and whatever you do, Elixr gives you the extra boost to go after the life you always wanted, here is why we are positioned to be the app for you</p>
+				<h2 class ="primary-color">Explore the "Elixr" 💎Experience</h2>
+				<p class = "text-white">wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
 			</div>
 			<div class="section__wrapper">
 				<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
@@ -282,7 +832,12 @@
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.6s">
 						<div class="about__item text-center">
 						<img src="assets/images/mockups/connection.png" alt="banner" style ="height: 500px; width: 100%; object-fit: contain;">
-		
+							<!-- <div class="about__inner">
+								<div class="about__content">
+									<h4>John Doe</h4>
+									<p>"Create connections with users that are like you."</p>
+								</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="col-lg-3 wow fadeInUp" data-wow-duration="1.7s">
@@ -471,7 +1026,7 @@
     <!-- ================> App section start here <================== -->
 	<div class="app app--style2 padding-top padding-bottom">
 		<div class="container">
-			<div class="row g-4 justify-content-center">
+			<div class="row g-4 justify-content-center flx-rev">
 				<div class = "col-lg-6">
 					<img src="assets/images/mockups/mockup-1.png" alt="Join Waiting list Image" style = "height: 600px; width: 100%; object-fit: contain;">
 				</div>
@@ -483,11 +1038,7 @@
 								<h2>You are one step away from your life of your dreams</h2>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p>Make the rest of your life the best of your life by exploring events and places with  the right people. You have spent the first half of your life giving so much to the world, i’s time for you to enjoy the rest of your life with the people you love ❤️❤️</p>
-								<ul>
-									<li><a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a></li>
-									<!-- <li><a href="#"><img src="assets/images/app/01.jpg" alt="dating thumb"></a></li>
-									<li><a href="#"><img src="assets/images/app/02.jpg" alt="dating thumb"></a></li> -->
-								</ul>
+								<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
 							</div>
 						</div>
 					</div>
@@ -553,10 +1104,11 @@
 										</div>
 										<div class="footer__content--desc">
 											<!-- Ozioma, edit the contents directly in the tag below -->
-											<p>Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
+											<p class="text-white">Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
 										</div>
 										<!-- Ozioma, edit the contents directly in the tag below -->
-										<div class="footer__content--info">Aluguntugui St, Accra<p>
+										<div class="footer__content--info">
+											<p><b>Location :</b> Aluguntugui St, Accra</p>
 											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
 											<p><b>Contact :</b> +30 226 4881 514 www.dateonelixr.com</p>
 										</div>
@@ -682,9 +1234,9 @@
 								<div class="footer__newsletter--social">
 									<ul>
 										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+										{{-- <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li> --}}
 										<li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
 									</ul>
 								</div>

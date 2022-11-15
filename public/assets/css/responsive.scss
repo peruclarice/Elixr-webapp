@@ -11,3 +11,12 @@
         background-color: custom.$text-white;
     }
 }
+@media screen and (max-width: 992px) {
+    .flx-rev {
+        flex-direction: column-reverse !important;
+        text-align: center;
+        > * {
+            margin-bottom: 2rem;
+        }
+    }
+}
