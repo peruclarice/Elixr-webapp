@@ -19,21 +19,22 @@ Route::get('/', function () {
     $faqs= [
         'data'=>[
             [
-                'Question'=>'Question 1',
-                'Answer'=>'Answer1 You need to be atleast 50 years of age',
+                'Question'=>'How do I use the app for the first time?',
+                'Answer'=>'Answer1 ',
             ],
             [
-                'Question'=>'Question 2',
-                'Answer'=>' Answer 2You need to be atleast 50 years of age',
+                'Question'=>'How do I prepare for my date?',
+                'Answer'=>' Answer 2',
             ],
             [
-                'Question'=>'Question 3',
-                'Answer'=>'Answer 3You need to be atleast 50 years of age',
+                'Question'=>'What safety measures can I take going on a date ',
+                'Answer'=>'Answer 3',
+            ],
+            [
+                'Question'=>'Are my personal details safe on your app? ',
+                'Answer'=>'Answer 3',
             ],
         ]        
-    ];
-    $faqs=[
-        'data'=>[]  
     ];
     return view('home',$faqs);
 });

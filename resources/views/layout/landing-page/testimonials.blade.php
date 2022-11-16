@@ -47,7 +47,7 @@ testimonials should be added here
 					<div class="about__item text-center">
 						<div class="about__inner">
 							<div class="about__thumb">
-								<img src="assets/images/about/elixr-date.jpg" alt="dating thumb">
+								<img src="assets/images/elixr-date.jpg"  width="150px" height="150px" alt="dating thumb">
 							</div>
 							<div class="about__content">
 								<h4>Mrs. Clarissa</h4>

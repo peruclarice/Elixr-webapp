@@ -29,10 +29,12 @@ value proposition should be added here
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
-				<div class="about__item text-center">
-				<h3>Meet Real People, Form Genuine Connections</h3>
-					<p>Do you worry that people are not as true as they look on dating apps, witrh Elixr, you no longer have to spot faking dating profiles, every new person on our platform is verified before allowed on the platform</p>
-					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Download Elixr</a>
+				<div class="about__item text-center p-4">
+				<h3>Meet Real People,
+					<br> Form Genuine Connections</h3>
+
+					<p>Do you worry that people are not as true as they look on dating apps, with Elixr, you do not have to deal with fake profiles, every new person on our platform is verified before allowed on the platform</p>
+					<a href="#" class="default-btn style-2 text-center mt-3 "> </i>Download Elixr</a>
 				</div>
 				</div>
 			</div>
@@ -40,10 +42,10 @@ value proposition should be added here
 			<div class="row g-4 justify-content-center align-items-center py-5 flx-rev">
 				
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
-				<div class="about__item text-center">
+				<div class="about__item text-center p-4">
 				<h3>Built for Ease, Designed for Comfort.</h3>
 					<p>Whether you are video calling your date, or chatting with your friends or getting reminders on physical dates, our mobile app makes it possible for you to do all these without barrier. We built Elixr with you in mind, designed for comfort and ease</p>
-					<a href="#" class="default-btn style-2 text-center"><i class="fas fa-plus mx-2"></i>Download Elixr</a>
+					<a href="#" class="default-btn style-2 text-center mt-3">Download Elixr</a>
 				</div>
 				</div>
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
