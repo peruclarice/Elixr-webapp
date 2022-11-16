@@ -25,7 +25,7 @@ value proposition should be added here
 			<div class="row g-4 justify-content-center align-items-center py-5">
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/value_preposition1.jpg" alt="">
+					<img src="assets/images/value_preposition1.jpg" class="rounded" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
@@ -50,7 +50,7 @@ value proposition should be added here
 				</div>
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/value_preposition2.jpg" alt="">
+					<img src="assets/images/value_preposition2.jpg" class="rounded" alt="">
 					</div>
 				</div>
 			</div>

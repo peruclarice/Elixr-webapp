@@ -83,10 +83,10 @@ hero should be added here
 		<div class="container">
 			<div class="section__wrapper">
 				<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center flx-rev">
-					<div class="col-lg-6">
+					<div class="col-lg-6 order-1 order-lg-0  justify-content-center">
 						<img src="assets/images/mockups/home.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 order-0 order-lg-1">
 						<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 							<div class="app__inner">
 								<div class="app__content">
@@ -97,7 +97,7 @@ hero should be added here
 									We built Elixr, after witnessing our loved ones go through the stigma and loneliness that comes with aging and retirement. Learn how Elixr is helping older adults create meaningful connections </p>
 
 									
-							<a href="membership.html" class="default-btn style-2 text-center"><span>Learn More</span></a>
+							<a href="membership.html" class="default-btn style-2 text-center mt-3"><span>Learn More</span></a>
 								</div>
 							</div>
 						</div>
