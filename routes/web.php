@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     // return view('welcome');
+    
     $faqs= [
         'data'=>[
             [
@@ -31,6 +32,7 @@ Route::get('/', function () {
             ],
         ]        
     ];
+    $faqs=[];
     return view('home',$faqs);
 });
 Route::get('/home', function () {
