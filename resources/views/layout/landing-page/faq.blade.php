@@ -20,6 +20,7 @@ faq should be added here
             
             <div class="col-lg-8 wow fadeInDown" data-wow-duration="1.5s">
                 <div class="accordion " id="accordionExample">
+                    
                     @foreach ($data as $response)
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingId{{$loop->index}}">
@@ -45,7 +46,6 @@ faq should be added here
                         </div>
                       </div>
                     @endforeach
-                    
                   </div>
             </div>
         </div>

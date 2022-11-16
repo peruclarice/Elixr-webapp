@@ -32,7 +32,9 @@ Route::get('/', function () {
             ],
         ]        
     ];
-    $faqs=[];
+    $faqs=[
+        'data'=>[]  
+    ];
     return view('home',$faqs);
 });
 Route::get('/home', function () {
