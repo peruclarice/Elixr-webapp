@@ -43,6 +43,10 @@ hero should be added here
 									<li>
 										<a href="#0">Join Our Waitlist</a>
 									</li>
+									<li>
+										<a href="#plansModal" data-toggle="modal">Our Plans
+										</a>
+									</li>
 								</ul>
 							</div>
 						</div>

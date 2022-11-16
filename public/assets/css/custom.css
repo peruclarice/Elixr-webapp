@@ -6,6 +6,29 @@ body a:hover {
   color: #E3A80F;
 }
 
+.btn {
+  min-width: 20px;
+  max-width: 350px;
+  padding: 1rem 0.8rem;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn.btn-primary {
+  background-color: #E3A80F;
+  border-color: transparent;
+  color: #f6f6f6;
+}
+.btn.btn-secondary {
+  background-color: #f6f6f6;
+  border-color: #E3A80F;
+  color: #E3A80F;
+}
+.btn.btn-transaparent {
+  background-color: transparent;
+  border-color: #E3A80F;
+  color: #E3A80F;
+}
+
 .header__more .default-btn, .default-btn {
   color: #fff;
 }
@@ -258,4 +281,82 @@ svg {
   color: #E3A80F;
   background-color: #fff9e7;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+}
+
+.modal {
+  z-index: 10000;
+}
+.modal .modal-content {
+  background: linear-gradient(135deg, #2C3E50, #000);
+  background: linear-gradient(135deg, #434343, #000 75%);
+  color: #f6f6f6;
+}
+.modal .modal-content .modal-header {
+  border: 0;
+  align-items: center;
+  text-align: center;
+}
+.modal .modal-content .modal-header .close {
+  color: #f6f6f6;
+  margin: 0;
+}
+.modal .modal-content .modal-header .modal-title {
+  font-size: 1.8rem;
+}
+.modal .modal-content .modal-header p {
+  font-size: 1rem;
+}
+.modal .modal-content .plan .card {
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  background: var(--dark-bg-gradient-two);
+  border: 0;
+  padding-bottom: 1.4rem;
+  border-radius: 24px;
+}
+.modal .modal-content .plan .card.starter-plan {
+  box-shadow: none;
+  background: transparent;
+}
+.modal .modal-content .plan .card.premium-plan {
+  background: #E3A80F;
+}
+.modal .modal-content .plan .card.premium-plan span {
+  color: #f6f6f6 !important;
+}
+.modal .modal-content .plan .card .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal .modal-content .plan .card .card-header .card-title {
+  font-size: 1.4rem;
+}
+.modal .modal-content .plan .card .card-header .per-month {
+  font-size: 1.6rem;
+}
+.modal .modal-content .plan .card .card-header .per-month::before {
+  content: "$";
+  margin-left: 4px;
+}
+.modal .modal-content .plan .card .card-header .per-month span {
+  font-size: initial;
+  color: #E3A80F;
+}
+.modal .modal-content .plan .card .card-body {
+  text-align: center;
+}
+.modal .modal-content .plan .card .card-body ul li {
+  padding: 0.5rem;
+}
+.modal .modal-content .plan .card .card-footer {
+  text-align: center;
+  background: transparent;
+  border: 0;
+}
+.modal .modal-content .plan .card .card-footer a {
+  width: 100%;
+}
+.modal .modal-content .modal-footer {
+  border: 0;
 }/*# sourceMappingURL=custom.css.map */

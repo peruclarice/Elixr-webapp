@@ -3,6 +3,8 @@
 
 @section('content')
 
+{{-- Plans go here --}}
+@include('layout.plans')
 
 @include('layout.landing-page.hero')
 
