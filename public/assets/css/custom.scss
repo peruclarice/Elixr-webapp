@@ -8,12 +8,37 @@ $text-white : #f6f6f6;
 $primary-color-gradient : linear-gradient(135deg, #EDC111, #E3A80F);
 // $dark-bg-gradient : linear-gradient(135deg,#000, #060606);
 $darker-bg-color : #060606;
+$light-elevation : rgba(149, 157, 165, 0.2) 0px 8px 24px;
+$elevation: rgb(0 0 0 / 20%) 0px 8px 24px;
 
 body {
     color: $text-white;
     background-color: $darker-bg-color;
     a:hover {
         color: #E3A80F;
+    }
+}
+
+.btn {
+    min-width: 20px;
+    max-width: 350px;
+    padding: 1rem .8rem;
+    text-align: center;
+    box-shadow: $light-elevation;
+    &.btn-primary {
+        background-color: $primary-color;
+        border-color: transparent;
+        color: $text-white;
+    }
+    &.btn-secondary {
+        background-color: $text-white;
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+    &.btn-transaparent {
+        background-color: transparent;
+        border-color: $primary-color;
+        color: $primary-color;
     }
 }
 
@@ -262,4 +287,85 @@ svg {
     color: $primary-color;
     background-color: #fff9e7;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.modal {
+    z-index: 10000;
+    .modal-content {
+        background: $dark-bg-gradient;
+        background: $dark-bg-gradient-two;
+        color: $text-white;
+        .modal-header {
+            border: 0;
+            align-items: center;
+            text-align: center;
+            .close {
+                color: $text-white;
+                margin: 0;
+            }
+            .modal-title {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+                // color: $text-white;
+            }
+        }
+        .plan {
+            .card {
+                background: transparent;
+                box-shadow: $elevation;
+                background: var(--dark-bg-gradient-two);
+                border: 0;
+                padding-bottom: 1.4rem;
+                border-radius: 24px;
+                &.starter-plan {
+                    box-shadow: none;
+                    background: transparent;
+                }
+                &.premium-plan {
+                    background: $primary-color;
+                    span {
+                        color: $text-white !important;
+                    }
+                }
+                .card-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .card-title {
+                        font-size: 1.4rem;
+                    }
+                    .per-month {
+                        font-size: 1.6rem;
+                        &::before {
+                            content: '\000024';
+                            margin-left: 4px;
+
+                        }
+                        span {
+                            font-size: initial;
+                            color: $primary-color;
+                        }
+                    }
+                }
+                .card-body {
+                    text-align: center;
+                    ul li {
+                        padding: .5rem;
+                    }
+                }
+                .card-footer {
+                    text-align: center;
+                    background: transparent;
+                    border: 0;
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .modal-footer {
+            border: 0;
+        }
+    }
 }
