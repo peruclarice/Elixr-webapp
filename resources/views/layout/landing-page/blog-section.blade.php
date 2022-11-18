@@ -20,7 +20,7 @@ blog should be added here
 			<p class = "text-white">Al Elixr, Safety is our first priority, follow the Exlir Blog for tips and tricks to stay safe as you add some spice to your life. </p> --}}
 		</div>
 			<div class="row g-4 justify-content-center">
-				<div class="col-xl-6 col-lg-8 col-12 wow fadeInLeft" data-wow-duration="1.5s">
+				<div class="col-xl-6 col-lg-10 col-12 wow fadeInLeft" data-wow-duration="1.5s">
 					<div class="work__item">
 						<div class="work__inner">
 							<div class="work__thumb">
@@ -31,12 +31,12 @@ blog should be added here
 								<h3>Safety on a Date</h3>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p>Meeting a date for the first time, here are some tips you need to take note of. </p>
-								<a href="/blog" class="default-btn"><span>Read More</span></a>
+								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-6 col-lg-8 col-12 wow fadeInRight" data-wow-duration="1.5s">
+				<div class="col-xl-6 col-lg-10 col-12 wow fadeInRight" data-wow-duration="1.5s">
 					<div class="work__item">
 						<div class="work__inner">
 							<div class="work__thumb">
@@ -47,7 +47,7 @@ blog should be added here
 								<h3>Elixr Spotlight: My Experience Dating after 10 years of Marriage</h3>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p> Adelle Winnie shares her experience joining the dating pool after the loss of her husband. </p>
-								<a href="/blog" class="default-btn reverse"><span>Read More</span></a>
+								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
 							</div>
 						</div>
 					</div>

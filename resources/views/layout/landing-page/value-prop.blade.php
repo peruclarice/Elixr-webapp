@@ -13,7 +13,7 @@ value proposition should be added here
 			<div class="app__inner">
 				<div class="app__content">
 					<!-- Value Preposition Page Starts Here -->
-					<h2>Explore the "Elixr" 💎 Experience</h2>
+					<h2>Explore the "Elixr" <span class="mx-2"><img src="{{asset("assets/images/logo/elixr-icon-default.svg")}}" alt="elixr icon" width="56"></span> Experience</h2>
 
 					<p>Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
 					

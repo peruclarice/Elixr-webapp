@@ -41,7 +41,7 @@ hero should be added here
 										<a href="#0">FAQ</a>
 									</li>
 									<li>
-										<a href="#0">Join Our Waitlist</a>
+										<a href="#joinWaitListModal" data-toggle="modal">Join Our Waitlist</a>
 									</li>
 									<li>
 										<a href="#plansModal" data-toggle="modal">Our Plans
@@ -93,15 +93,13 @@ hero should be added here
 					<div class="col-lg-6">
 						<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
 							<div class="app__inner">
-								<div class="app__content">
+								<div class="app__content mb-4">
 									<h4>Explore Exclusive Dating with Elixr </h4>
 
 									<p >At Elixr, we believe age should not hinder anyone from forming new friendships and relationships in life.
 										
 									We built Elixr, after witnessing our loved ones go through the stigma and loneliness that comes with aging and retirement. Learn how Elixr is helping older adults create meaningful connections </p>
-
-									
-							<a href="membership.html" class="default-btn style-2 text-center"><span>Learn More</span></a>
+									<a href="membership.html" class="default-btn style-2 text-center mt-4"><span>Explore More on Elixr Connections</span></a>
 								</div>
 							</div>
 						</div>

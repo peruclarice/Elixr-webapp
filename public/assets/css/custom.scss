@@ -1,15 +1,22 @@
 $dark-bg-color : #2C3E50;
 $dark-bg-gradient : linear-gradient(135deg, #2C3E50, #000);
 $dark-bg-gradient-two : linear-gradient(135deg, #434343, #000 75%);
-$primary-color : #E3A80F;
+$primary-color : rgb(227, 168, 15);
+$tint-primary-color : hsl(43, 88%, 70%);
+$shade-primary-color : hsl(43, 88%, 27%);
 $text-black : #353535;
 // $dark-bg-gradient : linear-gradient(135deg, $text-black, #000);
 $text-white : #f6f6f6;
+$tint-white : hsl(0, 0%, 100%);
+$shade-white : hsl(0, 0%, 30%);
 $primary-color-gradient : linear-gradient(135deg, #EDC111, #E3A80F);
 // $dark-bg-gradient : linear-gradient(135deg,#000, #060606);
 $darker-bg-color : #060606;
 $light-elevation : rgba(149, 157, 165, 0.2) 0px 8px 24px;
 $elevation: rgb(0 0 0 / 20%) 0px 8px 24px;
+$primary-elevation : rgb(226 168 15 / 20%) 0px 8px 24px;
+
+@import '../sass/abstracts/mixins';
 
 body {
     color: $text-white;
@@ -25,15 +32,47 @@ body {
     padding: 1rem .8rem;
     text-align: center;
     box-shadow: $light-elevation;
+    @include transition(all .15s ease-out);
+    // transition: all 1s ease-out;
+    &:hover {
+        border-radius: 30px;
+    }
     &.btn-primary {
         background-color: $primary-color;
         border-color: transparent;
         color: $text-white;
+        &:hover {
+            background-color: transparent;
+            box-shadow: $primary-elevation;
+        }
+        &:focus, &:active {
+            background-color: transparent;
+            box-shadow: none;
+            border-color: $primary-color;
+        }
+        &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active {
+            background-color: transparent;
+            box-shadow: none;
+            border-color: $primary-color;
+        }
     }
     &.btn-secondary {
         background-color: $text-white;
         border-color: $primary-color;
         color: $primary-color;
+        &:hover {
+            background-color: $tint-primary-color;
+            color: $text-black;
+        }
+        &:focus, &:active {
+            background-color: $shade-primary-color;
+            box-shadow: none;
+        }
+        &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active {
+            background-color: $shade-primary-color;
+            box-shadow: none;
+            border-color: $primary-color;
+        }
     }
     &.btn-transaparent {
         background-color: transparent;
@@ -327,6 +366,13 @@ svg {
                     span {
                         color: $text-white !important;
                     }
+                    a.link {
+                        color: $text-white;
+                        &:hover {
+                            color: $text-white;
+                            text-decoration: underline;
+                        }
+                    }
                 }
                 .card-header {
                     display: flex;
@@ -335,11 +381,15 @@ svg {
                     .card-title {
                         font-size: 1.4rem;
                     }
+                    .diamond {
+                        font-size: initial;
+                        float: right;
+                    }
                     .per-month {
                         font-size: 1.6rem;
                         &::before {
-                            content: '\000024';
-                            margin-left: 4px;
+                            content: '\20B5';
+                            margin-right: 8px;
 
                         }
                         span {
@@ -349,9 +399,15 @@ svg {
                     }
                 }
                 .card-body {
-                    text-align: center;
                     ul li {
                         padding: .5rem;
+                        span {
+                            margin-right: .5rem;
+                            img {
+                                width: 20px;
+                                object-fit: contain;
+                            }
+                        }
                     }
                 }
                 .card-footer {
@@ -366,6 +422,52 @@ svg {
         }
         .modal-footer {
             border: 0;
+        }
+        form {
+            .form-group {
+                display: flex;
+                border-radius: 4px;
+                overflow: hidden;
+                .b-0 {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+.testimonials {
+    .about__thumb img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .about__content {
+        p {
+            overflow: visible;
+        }
+    }
+}
+
+.mainmenu ul li.open > a {
+    color: $primary-color;
+}
+
+.work {
+    .work__inner {
+        background: transparent;
+        background: $dark-bg-gradient-two;
+        background: $primary-color-gradient;
+        .work__thumb {
+            img {
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+        .work__content {
+            h3 {
+                color: $primary-color;
+                color: $text-white;
+            }
         }
     }
 }
