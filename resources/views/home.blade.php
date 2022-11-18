@@ -4,7 +4,7 @@
 @section('content')
 
 {{-- Plans go here --}}
-@include('layout.plans')
+@include('layout.modals')
 
 @include('layout.landing-page.hero')
 
