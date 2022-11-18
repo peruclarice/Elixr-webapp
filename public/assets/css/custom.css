@@ -1,3 +1,29 @@
+@charset "UTF-8";
+/*=====================****===================== */
+/* browser prefix adding  */
+/*=====================****===================== */
+/*=====================****===================== */
+/*Keyframes mixin with vendor prefix*/
+/*=====================****===================== */
+/*=====================****===================== */
+/*=====================****===================== */
+/*=====================****===================== */
+/*Retina ready image */
+/*=====================****===================== */
+/*=====================****===================== */
+/* Arrow with border */
+/*=====================****===================== */
+/*=====================****===================== */
+/*Creating box */
+/* ===== Usage ===== */
+/*=====================****===================== */
+/*=====================****===================== */
+/*backgorund size cover*/
+/* ===== Usage ===== */
+/*=====================****===================== */
+/*=====================****===================== */
+/*Hover effect for no-touch device only. (touch screen device dont have any hover state)*/
+/*=====================****===================== */
 body {
   color: #f6f6f6;
   background-color: #060606;
@@ -12,21 +38,52 @@ body a:hover {
   padding: 1rem 0.8rem;
   text-align: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.15s ease-out;
+}
+.btn:hover {
+  border-radius: 30px;
 }
 .btn.btn-primary {
-  background-color: #E3A80F;
+  background-color: rgb(227, 168, 15);
   border-color: transparent;
   color: #f6f6f6;
 }
+.btn.btn-primary:hover {
+  background-color: transparent;
+  box-shadow: rgba(226, 168, 15, 0.2) 0px 8px 24px;
+}
+.btn.btn-primary:focus, .btn.btn-primary:active {
+  background-color: transparent;
+  box-shadow: none;
+  border-color: rgb(227, 168, 15);
+}
+.btn.btn-primary:not(:disabled):not(.disabled).active, .btn.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: transparent;
+  box-shadow: none;
+  border-color: rgb(227, 168, 15);
+}
 .btn.btn-secondary {
   background-color: #f6f6f6;
-  border-color: #E3A80F;
-  color: #E3A80F;
+  border-color: rgb(227, 168, 15);
+  color: rgb(227, 168, 15);
+}
+.btn.btn-secondary:hover {
+  background-color: hsl(43deg, 88%, 70%);
+  color: #353535;
+}
+.btn.btn-secondary:focus, .btn.btn-secondary:active {
+  background-color: hsl(43deg, 88%, 27%);
+  box-shadow: none;
+}
+.btn.btn-secondary:not(:disabled):not(.disabled).active, .btn.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: hsl(43deg, 88%, 27%);
+  box-shadow: none;
+  border-color: rgb(227, 168, 15);
 }
 .btn.btn-transaparent {
   background-color: transparent;
-  border-color: #E3A80F;
-  color: #E3A80F;
+  border-color: rgb(227, 168, 15);
+  color: rgb(227, 168, 15);
 }
 
 .header__more .default-btn, .default-btn {
@@ -47,33 +104,33 @@ body a:hover {
   color: #f6f6f6;
 }
 .mainmenu ul li.active > a {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
   text-decoration: none;
 }
 .mainmenu ul li:hover > a {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 .mainmenu ul li.active > a::after, .mainmenu ul li.active > a::before, .mainmenu .menu-item-has-children:hover > a::after {
-  background: #E3A80F;
+  background: rgb(227, 168, 15);
 }
 .mainmenu ul li ul li a.active, .mainmenu ul li ul li a:hover {
   background: linear-gradient(135deg, #EDC111, #E3A80F);
 }
 
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .coupon input[type=submit], .shop-cart .section-wrapper .cart-top table thead tr, .shop-single .review .review-content .review-showing .client-review .review-form .review-title h4::before, .shop-single .review .review-nav li.active, .shop-single .product-details .post-content form .default-btn, .member__buttongroup li.is-checked .member__radio, .about--style2 .about__right, .about--style2 .about__bottom--navi div:hover, .about--style2 .about__bottom--navi div.active, .footer--style2 .footer__newsletter--form form .default-btn, .footer__newsletter--form form .default-btn, .header__top, .create-post .lab-inner .lab-content .post-form .content-type .content-list .post-submit .default-btn, .cart-plus-minus .qtybutton:hover, .cart-plus-minus .qtybutton {
-  background: #E3A80F;
+  background: rgb(227, 168, 15);
 }
 
 .about--style2 .about__right .banner__inputlist,
 .about--style2 .about__right .banner__inputlist select {
-  background: #E3A80F;
+  background: rgb(227, 168, 15);
   background: #fff3d4;
   color: #353535;
 }
 
 .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout input[type=submit]:hover, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item .p-content a:hover, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on a:hover, .shop-page .shop-product-wrap .product-item:hover .product-content h5 a, .shop-page .shop-product-wrap .product-list-item:hover .product-content h5 a, .shop-page .shop-title .product-view-mode a.active, .shop-page .section-header h4 span, .widget.shop-widget .widget-wrapper .shop-menu li .shop-submenu li.open > a, .widget.shop-widget .widget-wrapper .shop-menu li.open > a, .blog__inner:hover .blog__content a h3, .blog__inner:hover .blog__content a h2, .app__content h4, .member--style2 .member__tab li button.active, .member__buttongroup li.is-checked, .work__content h3, .work__tablist .nav-link.active span, .about__content h3 .counter, .about__inner:hover .about__content h4, .footer--support .footer__content--desc ul li a:hover, .footer--activity .footer__content--desc ul li:hover .content h6, .footer--feature .footer__content--desc ul li:hover .content h6, .breadcrumb-item.active, .cart-plus-minus .cart-plus-minus-box,
 .about--style2 .about__right .default-btn span {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
@@ -97,7 +154,7 @@ p {
   box-shadow: 0 10px 20px rgba(227, 168, 15, 0.3);
 }
 .member__item .member__inner:hover .member__content h5 {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 .member__item .member__inner:hover p {
   color: #f6f6f6;
@@ -110,11 +167,11 @@ p {
   max-width: 100px;
 }
 .navbar .navbar-toggler--icon, .navbar .navbar-toggler--icon:after, .navbar .navbar-toggler--icon:before {
-  background-color: #E3A80F;
+  background-color: rgb(227, 168, 15);
 }
 
 .primary-color {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 
 .scrollToTop i {
@@ -125,7 +182,7 @@ p {
   background: linear-gradient(135deg, #2C3E50, #000);
 }
 .footer .footer__content p a {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 
 .preloader {
@@ -140,7 +197,7 @@ p {
   color: #f6f6f6;
 }
 .story__item .story__inner:hover h4 {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
 }
 .story__item p {
   color: #f6f6f6;
@@ -156,7 +213,7 @@ p {
 }
 
 .transportation .section__wrapper .right .lab-line > span {
-  background: #E3A80F !important;
+  background: rgb(227, 168, 15) !important;
 }
 
 .about .about__inner_not {
@@ -278,7 +335,7 @@ svg {
 }
 
 .accordion-button:not(.collapsed) {
-  color: #E3A80F;
+  color: rgb(227, 168, 15);
   background-color: #fff9e7;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
 }
@@ -319,10 +376,17 @@ svg {
   background: transparent;
 }
 .modal .modal-content .plan .card.premium-plan {
-  background: #E3A80F;
+  background: rgb(227, 168, 15);
 }
 .modal .modal-content .plan .card.premium-plan span {
   color: #f6f6f6 !important;
+}
+.modal .modal-content .plan .card.premium-plan a.link {
+  color: #f6f6f6;
+}
+.modal .modal-content .plan .card.premium-plan a.link:hover {
+  color: #f6f6f6;
+  text-decoration: underline;
 }
 .modal .modal-content .plan .card .card-header {
   display: flex;
@@ -332,22 +396,31 @@ svg {
 .modal .modal-content .plan .card .card-header .card-title {
   font-size: 1.4rem;
 }
+.modal .modal-content .plan .card .card-header .diamond {
+  font-size: initial;
+  float: right;
+}
 .modal .modal-content .plan .card .card-header .per-month {
   font-size: 1.6rem;
 }
 .modal .modal-content .plan .card .card-header .per-month::before {
-  content: "$";
-  margin-left: 4px;
+  content: "₵";
+  margin-right: 8px;
 }
 .modal .modal-content .plan .card .card-header .per-month span {
   font-size: initial;
-  color: #E3A80F;
-}
-.modal .modal-content .plan .card .card-body {
-  text-align: center;
+  color: rgb(227, 168, 15);
 }
 .modal .modal-content .plan .card .card-body ul li {
   padding: 0.5rem;
+}
+.modal .modal-content .plan .card .card-body ul li span {
+  margin-right: 0.5rem;
+}
+.modal .modal-content .plan .card .card-body ul li span img {
+  width: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .modal .modal-content .plan .card .card-footer {
   text-align: center;
@@ -359,4 +432,41 @@ svg {
 }
 .modal .modal-content .modal-footer {
   border: 0;
+}
+.modal .modal-content form .form-group {
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.modal .modal-content form .form-group .b-0 {
+  border-radius: 0;
+}
+
+.testimonials .about__thumb img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonials .about__content p {
+  overflow: visible;
+}
+
+.mainmenu ul li.open > a {
+  color: rgb(227, 168, 15);
+}
+
+.work .work__inner {
+  background: transparent;
+  background: linear-gradient(135deg, #434343, #000 75%);
+  background: linear-gradient(135deg, #EDC111, #E3A80F);
+}
+.work .work__inner .work__thumb img {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.work .work__inner .work__content h3 {
+  color: rgb(227, 168, 15);
+  color: #f6f6f6;
 }/*# sourceMappingURL=custom.css.map */

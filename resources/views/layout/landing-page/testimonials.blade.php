@@ -15,13 +15,13 @@ testimonials should be added here
 				</div>
 			</div>
 		</div>
-		<div class="section__wrapper">
+		<div class="section__wrapper testimonials">
 			<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
-				<div class="col wow fadeInUp" data-wow-duration="1.5s">
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-						<div class="about__inner">
+						<div>
 							<div class="about__thumb">
-								<img src="assets/images/about/.jpg" alt="dating thumb">
+								<img src="{{asset("assets/images/testimonials/user-7.jpeg")}}" alt="testimonial">
 							</div>
 							<div class="about__content">
 								<h4>Charles</h4>
@@ -30,11 +30,11 @@ testimonials should be added here
 						</div>
 					</div>
 				</div>
-				<div class="col wow fadeInUp" data-wow-duration="1.6s">
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.6s">
 					<div class="about__item text-center">
-						<div class="about__inner">
+						<div>
 							<div class="about__thumb">
-								<img src="assets/images/about/02.jpg" alt="dating thumb">
+								<img src="{{asset("assets/images/testimonials/user-5.jfif")}}" alt="testimonial">
 							</div>
 							<div class="about__content">
 								<h4>Adelle</h4>
@@ -43,24 +43,24 @@ testimonials should be added here
 						</div>
 					</div>
 				</div>
-				<div class="col wow fadeInUp" data-wow-duration="1.7s">
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.7s">
 					<div class="about__item text-center">
-						<div class="about__inner">
+						<div>
 							<div class="about__thumb">
-								<img src="assets/images/elixr-date.jpg"  width="150px" height="150px" alt="dating thumb">
+								<img src="{{asset("assets/images/testimonials/user-1.jpg")}}" alt="testimonial">
 							</div>
 							<div class="about__content">
-								<h4>Mrs. Clarissa</h4>
+								<h4>Clarissa</h4>
 								<p>"There’s no way I would have been a "Mrs" without Elixr. I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col wow fadeInUp" data-wow-duration="1.8s">
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.8s">
 					<div class="about__item text-center">
-						<div class="about__inner">
+						<div>
 							<div class="about__thumb">
-								<img src="assets/images/about/04.jpg" alt="dating thumb">
+								<img src="{{asset("assets/images/testimonials/user-8.jpg")}}" alt="testimonial">
 							</div>
 							<div class="about__content">
 								<h4>Kwame</h4>
