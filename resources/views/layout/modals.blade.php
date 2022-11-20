@@ -120,11 +120,12 @@
                 <div class="row plan">
                     <div class="col-lg-12">
                         <div class="card" style="box-shadow: none; background: transparent;">
-                            <div class="card-body">
-                                <form action="#">
+                            <div  id="subscribe-form-area" class="card-body">
+                                <form id="my-form" action="https://formspree.io/f/mjvzllyb" method="POST">
                                     <div class="form-group flex">
-                                        <input type="email" name="" id="" class="form-control b-0" placeholder="Enter Your Email Address...">
-                                        <input type="submit" class="btn btn-primary b-0" value="Join Our Waiting List" style="max-width: fit-content;">
+                                        <input type="email" name="email" class="form-control b-0 " placeholder="Enter Your Email Address...">
+                                        
+                                        <input type="submit" id="my-form-button"  class="btn btn-primary b-0 " value="Join Our Waiting List" style="max-width: fit-content;">
                                     </div>
                                 </form>
                             </div>
@@ -135,3 +136,4 @@
         </div>
     </div>
 </div>
+

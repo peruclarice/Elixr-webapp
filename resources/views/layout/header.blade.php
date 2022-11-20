@@ -41,7 +41,7 @@
     @extends('layout.footer')
 
 	<!-- All Needed JS -->
-	<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
 	<script src="assets/js/isotope.pkgd.min.js"></script>
 	<script src="assets/js/swiper.min.js"></script>
@@ -55,7 +55,7 @@
 	<script src="assets/js/plugins.js"></script>
 	<script src="assets/js/main.js"></script>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	{{-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> --}}
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -73,5 +73,36 @@
 		ga('send', 'pageview')
 	</script>
 	<script src="https://www.google-analytics.com/analytics.js" async></script>
+	<script>
+		var form = document.getElementById("my-form");
+		
+		async function handleSubmit(event) {
+		  event.preventDefault();;
+		  var data = new FormData(event.target);
+		  fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		  }).then(response => {
+			if (response.ok) {
+			  alert("Thanks for your submission");
+			  form.reset()
+			} else {
+			  response.json().then(data => {
+				if (Object.hasOwn(data, 'errors')) {
+					alert(data["errors"].map(error => error["message"]).join(", "));
+				} else {
+					alert("Oops! There was a problem submitting your form");
+				}
+			  })
+			}
+		  }).catch(error => {
+			alert("Oops! There was a problem submitting your form");
+		  });
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
 </body>
 </html>

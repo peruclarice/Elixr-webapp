@@ -69,7 +69,7 @@ hero should be added here
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
 											<h2>Welcome to <span class="primary-color"> Elixr!</span></h2>
 											<h5 class="text-white">Where age is more than just a number!</h5>
-											<a href="membership.html" class="default-btn style-2 text-center"><span>Join our Community</span></a>
+											<a href="#joinWaitListModal" data-toggle="modal" class="default-btn style-2 text-center"><span>Join our Community</span></a>
 										</div>
 									</div>
 								</div>
