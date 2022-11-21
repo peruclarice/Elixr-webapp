@@ -45,7 +45,10 @@ Route::get('/', function () {
                 'Question'=>'Where can I go for a first date?',
                 'Answer'=>'If you\'re worried about starting a conversation with a new person,choose an activity you both enjoy. Ask your date what they would like to do, that way it will be a lot less intimidating, this familiar environment will enable you be yourself.']
 
-            ]      
+            ] 
+        ],
+        'active'=>'/'       
+
     ];
     return view('home',$faqs);
 });
@@ -61,5 +64,5 @@ Route::get('/home1', function () {
 
 Route::get('/blog', function () {
     // return view('welcome');
-    return view('blog');
+    return view('blog',['active'=>'blog']);
 });

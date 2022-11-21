@@ -14,50 +14,9 @@ hero should be added here
 </video>
 
 <div class="ontop">
-	<header class="header" id="navbar">
-		<div style ="height: 0.75vh; background : var(--primary-color);"></div>
-			<div class="header__bottom">
-				<div class="container">
-					<nav class="navbar navbar-expand-lg">
-						<a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
-						<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-							aria-label="Toggle navigation">
-							<span class="navbar-toggler--icon"></span>
-						</button>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-							<div class="navbar-nav mainmenu">
-								<ul>
-									<li class="active">
-										<a href="#0">Home</a>
-									</li>
-									<li>
-										<a href="#0">Blog</a>
-									</li>
-									<li>
-										<a href="#0">Events</a>
-									</li>
-									<li>
-										<a href="#0">FAQ</a>
-									</li>
-									<li>
-										<a href="#joinWaitListModal" data-toggle="modal">Waitlist</a>
-									</li>
-									<li>
-										<a href="#plansModal" data-toggle="modal">Pricing
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-				</div>
-			</div>
-	</header>
 
+	@include('layout.menu')
 
-	
-	
 <!-- ================> Banner section start here <================== -->
 	<div class="banner banner--style2 padding-top bg_img elixr-hero">
 		<div class="container">
