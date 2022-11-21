@@ -14,7 +14,9 @@ hero should be added here
 </video>
 
 <div class="ontop">
+
 	@include('layout.menu')
+
 <!-- ================> Banner section start here <================== -->
 	<div class="banner banner--style2 padding-top bg_img elixr-hero">
 		<div class="container">
@@ -25,7 +27,7 @@ hero should be added here
 										<div class="banner__title">
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
 											<h2>Welcome to <span class="primary-color"> Elixr!</span></h2>
-											<h5 class="text-white">Where age is more than just a number!</h5>
+											<h5 class="text-white">Make Meaningful Connections with People Just Like You!</h5>
 											<a href="#joinWaitListModal" data-toggle="modal" class="default-btn style-2 text-center"><span>Join our Community</span></a>
 										</div>
 									</div>

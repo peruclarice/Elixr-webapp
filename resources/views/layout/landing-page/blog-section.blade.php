@@ -28,7 +28,7 @@ blog should be added here
 							</div>
 							<div class="work__content">
 								<!-- Ozioma, edit the contents directly in the tag below -->
-								<h3>Safety on a Date</h3>
+								<h3>Dating Again: Here's what you should know</h3>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p>Meeting a date for the first time, here are some tips you need to take note of. </p>
 								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
@@ -44,7 +44,7 @@ blog should be added here
 							</div>
 							<div class="work__content">
 								<!-- Ozioma, edit the contents directly in the tag below -->
-								<h3>Elixr Spotlight: My Experience Dating after 10 years of Marriage</h3>
+								<h3>Adelle Winnie: My Experience Dating after 10 years of Marriage</h3>
 								<!-- Ozioma, edit the contents directly in the tag below -->
 								<p> Adelle Winnie shares her experience joining the dating pool after the loss of her husband. </p>
 								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
