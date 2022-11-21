@@ -50,7 +50,7 @@ value proposition should be added here
 				</div>
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/value_preposition2.jpg" class="rounded" alt="">
+					<img src="assets/images/Value_preposition2.jpg" class="rounded" alt="">
 					</div>
 				</div>
 			</div>

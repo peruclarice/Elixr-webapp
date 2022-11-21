@@ -32,7 +32,7 @@ hero should be added here
 										<a href="#0">Home</a>
 									</li>
 									<li>
-										<a href="#0">Dating Blog</a>
+										<a href="#0">Blog</a>
 									</li>
 									<li>
 										<a href="#0">Events</a>
@@ -41,10 +41,10 @@ hero should be added here
 										<a href="#0">FAQ</a>
 									</li>
 									<li>
-										<a href="#joinWaitListModal" data-toggle="modal">Join Our Waitlist</a>
+										<a href="#joinWaitListModal" data-toggle="modal">Waitlist</a>
 									</li>
 									<li>
-										<a href="#plansModal" data-toggle="modal">Our Plans
+										<a href="#plansModal" data-toggle="modal">Pricing
 										</a>
 									</li>
 								</ul>
@@ -68,7 +68,7 @@ hero should be added here
 										<div class="banner__title">
 											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
 											<h2>Welcome to <span class="primary-color"> Elixr!</span></h2>
-											<h5 class="text-white">Where age is more than just a number!</h5>
+											<h5 class="text-white">Make Meaningful Connections with People Just Like You!</h5>
 											<a href="#joinWaitListModal" data-toggle="modal" class="default-btn style-2 text-center"><span>Join our Community</span></a>
 										</div>
 									</div>
