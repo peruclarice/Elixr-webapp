@@ -34,7 +34,8 @@ Route::get('/', function () {
                 'Question'=>'Are my personal details safe on your app? ',
                 'Answer'=>'Answer 3',
             ],
-        ]        
+        ],
+        'active'=>'/'       
     ];
     return view('home',$faqs);
 });
@@ -50,5 +51,5 @@ Route::get('/home1', function () {
 
 Route::get('/blog', function () {
     // return view('welcome');
-    return view('blog');
+    return view('blog',['active'=>'blog']);
 });

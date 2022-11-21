@@ -107,7 +107,9 @@
   
 <!-- Modal Begins -->
 <div class="modal fade" id="joinWaitListModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div id="joinWaitList" class="modal-dialog modal-dialog-centered" role="document">
+
+        {{-- Email content --}}
         <div class="modal-content">
             <div class="modal-header p-4" style="flex-direction: column; justify-content: center;">
               <h5 class="modal-title" id="exampleModalLabel">Join Our Waitlist</h5>
@@ -134,6 +136,10 @@
                 </div>
             </div>
         </div>
+
+        {{-- Success Message --}}
+        
+
     </div>
 </div>
 

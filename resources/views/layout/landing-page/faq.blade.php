@@ -5,7 +5,7 @@ faq should be added here
 -->
 
 
-<div class="container">
+<div class="container" id="faq">
     <div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
         <div class="app__inner">
             <div class="app__content">

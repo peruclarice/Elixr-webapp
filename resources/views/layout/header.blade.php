@@ -75,7 +75,27 @@
 	<script src="https://www.google-analytics.com/analytics.js" async></script>
 	<script>
 		var form = document.getElementById("my-form");
-		
+		var html_content =`
+		<div class="modal-content">
+            <div class="modal-header p-4" style="flex-direction: column; justify-content: center; display: none;">
+              <h5 class="modal-title" id="exampleModalLabel">Email Sent Successfully!</h5>
+              <p class="text-white">We have included you in our waiting list, get ready for an epic time, with Elixr.</p>
+            </div>
+            <div class="modal-body" style = "text-align: center;">
+                <div class="row plan">
+                    <div class="col-lg-12">
+                        <div class="card" style="box-shadow: none; background: transparent;">
+                            <div  id="subscribe-form-area" class="card-body">
+                                <img src="{{asset("assets/images/Sending emails_Flatline.svg")}}" alt="">
+								<h5 class="modal-title" style = "margin-bottom: .5rem; color: var(--primary-color);">Email Sent Successfully!</h5>
+              					<p class="text-white">We have included you in our waiting list, get ready for an epic time, with Elixr.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		`;
 		async function handleSubmit(event) {
 		  event.preventDefault();;
 		  var data = new FormData(event.target);
@@ -87,7 +107,10 @@
 			}
 		  }).then(response => {
 			if (response.ok) {
-			  alert("Thanks for your submission");
+			  $("#joinWaitList").html(html_content);
+			  setTimeout(5000,function(){
+				$('#joinWaitListModal').modal('toggle');
+			  })
 			  form.reset()
 			} else {
 			  response.json().then(data => {
