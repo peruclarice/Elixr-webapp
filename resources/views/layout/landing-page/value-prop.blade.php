@@ -13,7 +13,7 @@ value proposition should be added here
 			<div class="app__inner">
 				<div class="app__content">
 					<!-- Value Preposition Page Starts Here -->
-					<h2>Explore the "Elixr" <span class="mx-2"><img src="{{asset("assets/images/logo/elixr-icon-default.svg")}}" alt="elixr icon" width="56"></span> Experience</h2>
+					<h2>Explore the "Elixr" <span class="mx-2"><img src={{asset("assets/images/logo/elixr-icon-default.svg")}} alt="elixr icon" width="56"></span> Experience</h2>
 
 					<p>Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
 					
@@ -25,7 +25,7 @@ value proposition should be added here
 			<div class="row g-4 justify-content-center align-items-center py-5">
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/value_preposition1.jpg" class="rounded" alt="">
+					<img src={{asset("assets/images/Value_preposition1.jpg")}} class="rounded" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
@@ -50,7 +50,7 @@ value proposition should be added here
 				</div>
 				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
 					<div class="about__item text-center">
-					<img src="assets/images/Value_preposition2.jpg" class="rounded" alt="">
+					<img src={{asset("assets/images/elixr3.jpg")}} class="rounded" alt="">
 					</div>
 				</div>
 			</div>

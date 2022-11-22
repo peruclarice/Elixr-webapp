@@ -3,7 +3,7 @@
         <div class="header__bottom">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
+                    <a class="navbar-brand" href="/"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
