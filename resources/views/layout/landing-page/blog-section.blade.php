@@ -24,7 +24,7 @@ blog should be added here
 					<div class="work__item">
 						<div class="work__inner">
 							<div class="work__thumb">
-								<img src="assets/images/work/Blog_Post2.jpg" alt="dating thumb">
+								<img src="assets/images/work/Blog_Post2.jpg" class="rounded" alt="dating thumb">
 							</div>
 							<div class="work__content">
 								<!-- Ozioma, edit the contents directly in the tag below -->
@@ -40,7 +40,7 @@ blog should be added here
 					<div class="work__item">
 						<div class="work__inner">
 							<div class="work__thumb">
-								<img src="assets/images/work/Blog_post1.jpg" alt="dating thumb">
+								<img src="assets/images/work/Blog_post1.jpg" class="rounded" alt="dating thumb">
 							</div>
 							<div class="work__content">
 								<!-- Ozioma, edit the contents directly in the tag below -->
