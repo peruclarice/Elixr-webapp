@@ -1,0 +1,833 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Elixr | Rejuvenate Your Life</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- site favicon -->
+	<link rel="icon" type="image/png" href="assets/images/logo/elixr-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- All stylesheet and icons css  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        :root {
+            --dark-bg-color : #2C3E50;
+            --dark-bg-gradient : linear-gradient(135deg, #2C3E50, #000 75%);
+            --dark-bg-gradient-two : linear-gradient(135deg, #434343, #000 75%);
+            --primary-color : #E3A80F;
+            --text-black : #353535;
+            --text-white : #f6f6f6;
+            --primary-color-gradient : linear-gradient(135deg, #EDC111, #E3A80F);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    
+
+<!-- Modal for the Pricing Plans -->
+<!-- Modal Begins -->
+<div class="modal fade" id="plansModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="flex-direction: column; justify-content: center;">
+              <h5 class="modal-title" id="exampleModalLabel">Elixr Plan</h5>
+              <p class="text-white">Learn what you could gain from our plans, we promise to satisfy.</p>
+                
+            </div>
+            <div class="modal-body">
+                <div class="row plan">
+                    <div class="col-lg-6">
+                      <div class="card starter-plan">
+                          <div class="card-header" style="background-color: transparent">
+                              <h5 class="card-title">Free Plan</h5>
+                              <h6 class="per-month">0 <span>/per month</span></h6>
+                          </div>
+                          <div class="card-body">
+                              <ul>
+                                  <li>
+                                      <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                      Free to download
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Swipe and match
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Curated events
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    In-app messaging
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Scheduling available events
+                                </li>
+                              </ul>
+                          </div>
+                          <div class="card-footer">
+                              <a href="#" class="btn btn-primary">Try The Free Elix Plan</a>
+                          </div>
+                      </div>
+                    </div>
+                  <div class="col-lg-6">
+                    <div class="card premium-plan">
+                        <div class="card-header">
+                            
+                            <h5 class="card-title">Premium Plan</h5>
+                            <h6 class="per-month">240 <span>/per month</span></h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>All Features included from <a href="#" class="link">Free Plan</a>
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Travel mode
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Boost your profile
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Create events
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Video dates/ connections
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Back track on swipes
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>See who has liked your profile
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Join interest circles
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-secondary">Try The Diamond Elix Plan</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Joining the waitlist -->
+<!-- Button trigger modal -->
+
+  
+<!-- Modal Begins -->
+<div class="modal fade" id="joinWaitListModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div id="joinWaitList" class="modal-dialog modal-dialog-centered" role="document">
+
+        
+        <div class="modal-content">
+            <div class="modal-header p-4" style="flex-direction: column; justify-content: center;">
+              <h5 class="modal-title" id="exampleModalLabel">Join Our Waitlist</h5>
+              <p class="text-white">Join our waiting list to experince the elixr of life, we provide value for your time here.</p>
+                
+            </div>
+            <div class="modal-body">
+                <div class="row plan">
+                    <div class="col-lg-12">
+                        <div class="card" style="box-shadow: none; background: transparent;">
+                            <div  id="subscribe-form-area" class="card-body">
+                                <form id="my-form" action="https://formspree.io/f/mjvzllyb" method="POST">
+                                    <div class="form-group flex">
+                                        <input type="email" name="email" class="form-control b-0 " placeholder="Enter Your Email Address...">
+                                        
+                                        <input type="submit" id="my-form-button"  class="btn btn-primary b-0 " value="Join Our Waiting List" style="max-width: fit-content;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+</div>
+
+
+<!-- 
+This layout describes the landing page hero section
+All changes for the hero section can be made here and only content concerning 
+hero should be added here
+-->
+<a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
+
+<video autoplay muted loop id="myVideo1" class="myVideo">
+	<source src="assets/images/new_bg.mp4" type="video/mp4" >
+</video>
+
+<video autoplay muted loop id="myVideo2" class="myVideo">
+	<source src="assets/images/potrait.mp4" type="video/mp4" >
+</video>
+
+<div class="ontop">
+
+	<header class="header" id="navbar">
+    <div style ="height: 0.75vh; background : var(--primary-color);"></div>
+        <div class="header__bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="/"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler--icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mainmenu">
+                            <ul>
+                                <li
+                                                                class="active"
+                                >
+                                    <a href="/">Home</a>
+                                </li>
+                                <li
+                                                                 >
+                                    <a href="/blog">Dating Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#faq">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#joinWaitListModal" data-toggle="modal">Join Our Waitlist</a>
+                                </li>
+                                <li>
+                                    <a href="#plansModal" data-toggle="modal">Our Plans
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+</header>
+<!-- ================> Banner section start here <================== -->
+	<div class="banner banner--style2 padding-top bg_img elixr-hero">
+		<div class="container">
+			<div class="banner__wrapper">
+				<div class="row g-0 justify-content-center align-items-center">
+								<div class="col-lg-12 col-12 text-center">
+									<div class="banner__content bg-transparent wow fadeInLeft" data-wow-duration="1.5s">
+										<div class="banner__title">
+											<!-- <h2>New Places, Unforgettable Dating.</h2> -->
+											<h2>Welcome to <span class="primary-color"> Elixr!</span></h2>
+											<h5 class="text-white">Make Meaningful Connections with People Just Like You!</h5>
+											<a href="#joinWaitListModal" data-toggle="modal" class="default-btn style-2 text-center"><span>Join our Community</span></a>
+										</div>
+									</div>
+								</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- ================> Banner section end here <================== -->
+
+
+<!-- ================> About section start here <================== -->
+<div class="elixir-section padding-top padding-bottom" style="background:rgb(10,10,10)" >
+	<div class="about pt-xl-0">
+		<div class="container">
+			<div class="section__wrapper">
+				<div class="row g-0 justify-content-center row-cols-lg-2 row-cols-1 align-items-center flx-rev">
+					<div class="col-lg-6 order-1 order-lg-0  justify-content-center">
+						<img src="assets/images/mockups/home.png" alt="banner" style ="height: 600px; width: 100%; object-fit: contain;">
+					</div>
+					<div class="col-lg-6 order-0 order-lg-1">
+						<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+							<div class="app__inner">
+								<div class="app__content mb-4">
+									<h4>Explore Exclusive Dating with Elixr </h4>
+
+									<p >At Elixr, we believe age should not hinder anyone from forming new friendships and relationships in life.
+										
+									We built Elixr, after witnessing our loved ones go through the stigma and loneliness that comes with aging and retirement. Learn how Elixr is helping older adults create meaningful connections </p>
+									<a href="membership.html" class="default-btn style-2 text-center mt-4"><span>Explore More on Elixr Connections</span></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 
+This layout describes the landing page value proposition section
+All changes for the value proposition section can be made here and only content concerning 
+value proposition should be added here
+-->
+<div class="about padding-top padding-bottom bg_img">
+	<div class="container">
+		
+		<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+			<div class="app__inner">
+				<div class="app__content">
+					<!-- Value Preposition Page Starts Here -->
+					<h2>Explore the "Elixr" <span class="mx-2"><img src=http://localhost/assets/images/logo/elixr-icon-default.svg alt="elixr icon" width="56"></span> Experience</h2>
+
+					<p>Wherever you are, and whatever you do, Elixr gives you the extra boost to rejuvenate your life, Let us walk you through the “Elixr Experience”</p>
+					
+				</div>
+			</div>
+		</div>
+		<div class="section__wrapper">
+
+			<div class="row g-4 justify-content-center align-items-center py-5">
+				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
+					<div class="about__item text-center">
+					<img src=http://localhost/assets/images/Value_preposition1.jpg class="rounded" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
+				<div class="about__item text-center p-4">
+				<h3>Meet Real People,
+					<br> Form Genuine Connections</h3>
+
+					<p>Do you worry that people are not as true as they look on dating apps, with Elixr, you do not have to deal with fake profiles, every new person on our platform is verified before allowed on the platform</p>
+					<a href="#" class="default-btn style-2 text-center mt-3 "> </i>Download Elixr</a>
+				</div>
+				</div>
+			</div>
+
+			<div class="row g-4 justify-content-center align-items-center py-5 flx-rev">
+				
+				<div class="col-lg-6 wow fadeInDown" data-wow-duration="1.5s">
+				<div class="about__item text-center p-4">
+				<h3>Built for Ease, Designed for Comfort.</h3>
+					<p>Whether you are video calling your date, or chatting with your friends or getting reminders on physical dates, our mobile app makes it possible for you to do all these without barrier. We built Elixr with you in mind, designed for comfort and ease</p>
+					<a href="#" class="default-btn style-2 text-center mt-3">Download Elixr</a>
+				</div>
+				</div>
+				<div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
+					<div class="about__item text-center">
+					<img src=http://localhost/assets/images/elixr3.jpg class="rounded" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- 
+This layout describes the landing page blog section
+All changes for the blog section can be made here and only content concerning 
+blog should be added here
+-->
+<div class="work work--style2 padding-top padding-bottom bg_img">
+	<div class="container">
+		<div class="section__wrapper">
+		<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+			<div class="app__inner">
+				<div class="app__content">
+					<!-- Ozioma, edit the contents directly in the tag below -->
+					<h4>Download the Elixr App Today!</h4>
+					<h2>Rejuvenate your Dating Life</h2>
+					<p>For Us, Saftey is our first priority, Subscribe to Elixr Dating Blog for safety and security tips as you meet new people and explore new places.</p>
+				</div>
+			</div>
+
+			
+		</div>
+			<div class="row g-4 justify-content-center">
+				<div class="col-xl-6 col-lg-10 col-12 wow fadeInLeft" data-wow-duration="1.5s">
+					<div class="work__item">
+						<div class="work__inner">
+							<div class="work__thumb">
+								<img src="assets/images/work/Blog_Post2.jpg" alt="dating thumb">
+							</div>
+							<div class="work__content">
+								<!-- Ozioma, edit the contents directly in the tag below -->
+								<h3>Dating Again: Here's what you should know</h3>
+								<!-- Ozioma, edit the contents directly in the tag below -->
+								<p>Meeting a date for the first time, here are some tips you need to take note of. </p>
+								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-10 col-12 wow fadeInRight" data-wow-duration="1.5s">
+					<div class="work__item">
+						<div class="work__inner">
+							<div class="work__thumb">
+								<img src="assets/images/work/Blog_post1.jpg" alt="dating thumb">
+							</div>
+							<div class="work__content">
+								<!-- Ozioma, edit the contents directly in the tag below -->
+								<h3>Adelle Winnie: My Experience Dating after 10 years of Marriage</h3>
+								<!-- Ozioma, edit the contents directly in the tag below -->
+								<p> Adelle Winnie shares her experience joining the dating pool after the loss of her husband. </p>
+								<a href="#" class="default-btn btn btn-secondary w-100"><span><i class="fas fa-plus mr-2"></i>Read More</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 
+This layout describes the landing page testimonials section
+All changes for the testimonials section can be made here and only content concerning 
+testimonials should be added here
+-->
+
+<div class="about padding-top padding-bottom bg_img" style="background: var(--dark-bg-gradient);">
+	<div class="container">
+		<div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+			<div class="app__inner">
+				<div class="app__content">
+					<h4>Download the Elixr App Today!</h4>
+					<h2>See what our Elixrs are saying</h2>
+					<p>And so should you! Our approach to dating is different, we understand the importance of human connection, here is what people are saying about us.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section__wrapper testimonials">
+			<div class="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
+					<div class="about__item text-center">
+						<div>
+							<div class="about__thumb">
+								<img src="http://localhost/assets/images/testimonials/user-7.jpeg" alt="testimonial">
+							</div>
+							<div class="about__content">
+								<h4>Charles</h4>
+								<p>"Using Elixr is like starting afresh again, t only took me 5 minutes to set up a profile and start meeting people "</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.6s">
+					<div class="about__item text-center">
+						<div>
+							<div class="about__thumb">
+								<img src="http://localhost/assets/images/testimonials/user-5.jfif" alt="testimonial">
+							</div>
+							<div class="about__content">
+								<h4>Adelle</h4>
+								<p>"I love how easy it is to see events in my city, and even view events in other countries when I travel"</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.7s">
+					<div class="about__item text-center">
+						<div>
+							<div class="about__thumb">
+								<img src="http://localhost/assets/images/testimonials/user-1.jpg" alt="testimonial">
+							</div>
+							<div class="about__content">
+								<h4>Clarissa</h4>
+								<p>"There’s no way I would have been a "Mrs" without Elixr. I met my husband on the app, we both enjoy gardening, we met at a gardening event organized by Elixr"</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.8s">
+					<div class="about__item text-center">
+						<div>
+							<div class="about__thumb">
+								<img src="http://localhost/assets/images/testimonials/user-8.jpg" alt="testimonial">
+							</div>
+							<div class="about__content">
+								<h4>Kwame</h4>
+								<p>"I love golfing,dd  Elixr helps me find people who love golfing and even helps me plan events  so I have something to look forward to every weekend"</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 
+This layout describes the landing page final call to action section
+All changes for the final call to action section can be made here and only content concerning 
+final call to action should be added here
+-->
+<div class="app app--style2 padding-top padding-bottom">
+	<div class="container">
+		<div class="row g-4 justify-content-center flx-rev">
+			<div class = "col-lg-6">
+				<img src="assets/images/mockups/mockup-1.png" alt="Join Waiting list Image" style = "height: 600px; width: 100%; object-fit: contain;">
+			</div>
+			<div class = "col-lg-6">
+			<div class="app__item wow fadeInUp" data-wow-duration="1.5s">
+					<div class="app__inner">
+						<div class="app__content">
+							<h4>Download the Elixr App Today!</h4>
+							<h2>You are one step away from your life of your dreams</h2>
+							<!-- Ozioma, edit the contents directly in the tag below -->
+							<p>Make the rest of your life the best of your life by exploring events and places with  the right people. 
+								
+							You spent the first half of your life giving so much to the world, it’s time for you to enjoy the rest of your life with the people you love ❤️</p>
+							<a href="membership.html" class="default-btn style-2 text-center"><span>Become an Elixr</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 
+This layout describes the landing page faq section
+All changes for the faq section can be made here and only content concerning 
+faq should be added here
+-->
+
+
+<div class="container" id="faq">
+    <div class="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
+        <div class="app__inner">
+            <div class="app__content">
+                <h2>FAQs</h2>
+                <p>Here are some of the commonly asked question about Elixr</p>
+            </div>
+        </div>
+    </div>
+    <div class="section__wrapper">
+
+        <div class="row g-4 justify-content-center align-items-center py-1 pb-5 flx-rev">
+            
+            <div class="col-lg-8 wow fadeInDown" data-wow-duration="1.5s">
+                <div class="accordion " id="accordionExample">
+                    
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId0">
+                          <button class="accordion-button
+                                                            
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo0" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo0">
+                              How do I use the app for the first time?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo0" class="accordion-collapse collapse
+                                                            show
+                                                        " aria-labelledby="headingId0" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Welcome to the Elixr Lifestyle, we  give you access to a thriving community and quality connections 
+                          </div>
+                        </div>
+                      </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId1">
+                          <button class="accordion-button
+                                                            collapsed
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo1">
+                              How do I set up my profile
+                          </button>
+                        </h2>
+                        <div id="collapseTwo1" class="accordion-collapse collapse
+                                                        " aria-labelledby="headingId1" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Elixr was designed for comfort, our user guide walks you through the process of creating a fantastic profile
+                          </div>
+                        </div>
+                      </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId2">
+                          <button class="accordion-button
+                                                            collapsed
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo2">
+                              What safety measures can I take going on a date 
+                          </button>
+                        </h2>
+                        <div id="collapseTwo2" class="accordion-collapse collapse
+                                                        " aria-labelledby="headingId2" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Meeting strangers for the first time may be challenging at first, but having these safety tips might make it easy  for you to feel more comfortable.  Meet at a public location and ensure you tell someone you’re going on a date, finally, refrain from giving full personal details 
+                          </div>
+                        </div>
+                      </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId3">
+                          <button class="accordion-button
+                                                            collapsed
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo3" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo3">
+                              Are my personal details safe on your app? 
+                          </button>
+                        </h2>
+                        <div id="collapseTwo3" class="accordion-collapse collapse
+                                                        " aria-labelledby="headingId3" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            You can be rest assured that your personal details are safe with us. 
+                We run on a strict policy that ensures everyone is verified before coming on our platform, you can read our privacy policy to learn more. 
+
+                          </div>
+                        </div>
+                      </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId4">
+                          <button class="accordion-button
+                                                            collapsed
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo4" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo4">
+                              What does a Premium package contain?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo4" class="accordion-collapse collapse
+                                                        " aria-labelledby="headingId4" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            A diamond experience on Elixr gives you access to In-built video call system, ability to switch to another location, and the chance to see who has seen your profile. 
+
+                          </div>
+                        </div>
+                      </div>
+                                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingId5">
+                          <button class="accordion-button
+                                                            collapsed
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo5" 
+                           aria-expanded="false" 
+                           aria-controls="collapseTwo5">
+                              Where can I go for a first date?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo5" class="accordion-collapse collapse
+                                                        " aria-labelledby="headingId5" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            If you&#039;re worried about starting a conversation with a new person,choose an activity you both enjoy. Ask your date what they would like to do, that way it will be a lot less intimidating, this familiar environment will enable you be yourself.
+                          </div>
+                        </div>
+                      </div>
+                                      </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+	<!-- All Needed JS -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- <script src="assets/js/all.min.js"></script> -->
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/counterup.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('set', 'transport', 'beacon');
+		ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async></script>
+	<script>
+		var form = document.getElementById("my-form");
+		var html_content =`
+		<div class="modal-content">
+            <div class="modal-header p-4" style="flex-direction: column; justify-content: center; display: none;">
+              <h5 class="modal-title" id="exampleModalLabel">Email Sent Successfully!</h5>
+              <p class="text-white">We have included you in our waiting list, get ready for an epic time, with Elixr.</p>
+            </div>
+            <div class="modal-body" style = "text-align: center;">
+                <div class="row plan">
+                    <div class="col-lg-12">
+                        <div class="card" style="box-shadow: none; background: transparent;">
+                            <div  id="subscribe-form-area" class="card-body">
+                                <img src="http://localhost/assets/images/Sending emails_Flatline.svg" alt="">
+								<h5 class="modal-title" style = "margin-bottom: .5rem; color: var(--primary-color);">Email Sent Successfully!</h5>
+              					<p class="text-white">We have included you in our waiting list, get ready for an epic time, with Elixr.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		`;
+		async function handleSubmit(event) {
+		  event.preventDefault();;
+		  var data = new FormData(event.target);
+		  fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		  }).then(response => {
+			if (response.ok) {
+			  $("#joinWaitList").html(html_content);
+			  setTimeout(5000,function(){
+				$('#joinWaitListModal').modal('toggle');
+			  })
+			  form.reset()
+			} else {
+			  response.json().then(data => {
+				if (Object.hasOwn(data, 'errors')) {
+					alert(data["errors"].map(error => error["message"]).join(", "));
+				} else {
+					alert("Oops! There was a problem submitting your form");
+				}
+			  })
+			}
+		  }).catch(error => {
+			alert("Oops! There was a problem submitting your form");
+		  });
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
+</body>
+</html>
+<footer class="footer footer--style2">
+		<div class="footer__top bg_img">
+			<div class="footer__toparea padding-top padding-bottom wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-4">
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item footer--about">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>About Elixr</h4>
+										</div>
+										<div class="footer__content--desc">
+											<!-- Ozioma, edit the contents directly in the tag below -->
+											<p class="text-white">Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
+										</div>
+										<!-- Ozioma, edit the contents directly in the tag below -->
+										<div class="footer__content--info">
+											<p><b>Location :</b> Aluguntugui St, Accra</p>
+											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
+											<p><b>Contact :</b> +30 226 4881 514 www.dateonelixr.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item footer--support">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Contacts & Support</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Our Team</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Testimonials</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Get in Touch</a></li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="row g-4 flex-column">
+							
+						<div class="col-lg-12 col-12">
+							<div class="footer__newsletter--area justify-content-xxl-end">
+								<div class="footer__newsletter--title me-xl-4">
+									<h4>Join Community</h4>
+								</div>
+								<div class="footer__newsletter--social">
+									<ul>
+										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+										
+										<li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-12">
+							<div class="footer__newsletter--area">
+								<div class="footer__newsletter--title">
+									<h4>Newsletter Sign up</h4>
+								</div>
+								<div class="footer__newsletter--form">
+									<form action="#">
+										<input type="email" placeholder="Your email address">
+										<button type="submit" class="default-btn"><span>Subscribe</span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="footer__content text-center">
+					<p class="mb-0">All Rights Reserved &copy; <a href="index.html">Elixr</a> || Design By: CodexCoder</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
