@@ -1,0 +1,461 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Elixr | Rejuvenate Your Life</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- site favicon -->
+	<link rel="icon" type="image/png" href="assets/images/logo/elixr-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- All stylesheet and icons css  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        :root {
+            --dark-bg-color : #2C3E50;
+            --dark-bg-gradient : linear-gradient(135deg, #2C3E50, #000 75%);
+            --dark-bg-gradient-two : linear-gradient(135deg, #434343, #000 75%);
+            --primary-color : #E3A80F;
+            --text-black : #353535;
+            --text-white : #f6f6f6;
+            --primary-color-gradient : linear-gradient(135deg, #EDC111, #E3A80F);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+	<!-- preloader ending here -->
+
+	<!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+    
+
+    <header class="header" id="navbar">
+    <div style ="height: 0.75vh; background : var(--primary-color);"></div>
+        <div class="header__bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="/"><img src="assets/images/logo/logo-3.png" alt="logo"></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler--icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mainmenu">
+                            <ul>
+                                <li
+                                >
+                                    <a href="/">Home</a>
+                                </li>
+                                <li
+                                                                class="active"
+                                                                 >
+                                    <a href="/blog">Dating Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#faq">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#joinWaitListModal" data-toggle="modal">Join Our Waitlist</a>
+                                </li>
+                                <li>
+                                    <a href="#plansModal" data-toggle="modal">Our Plans
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+</header>    
+    <!-- Modal for the Pricing Plans -->
+<!-- Modal Begins -->
+<div class="modal fade" id="plansModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="flex-direction: column; justify-content: center;">
+              <h5 class="modal-title" id="exampleModalLabel">Elixr Plan</h5>
+              <p class="text-white">Learn what you could gain from our plans, we promise to satisfy.</p>
+                
+            </div>
+            <div class="modal-body">
+                <div class="row plan">
+                    <div class="col-lg-6">
+                      <div class="card starter-plan">
+                          <div class="card-header" style="background-color: transparent">
+                              <h5 class="card-title">Free Plan</h5>
+                              <h6 class="per-month">0 <span>/per month</span></h6>
+                          </div>
+                          <div class="card-body">
+                              <ul>
+                                  <li>
+                                      <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                      Free to download
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Swipe and match
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Curated events
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    In-app messaging
+                                  </li>
+                                  <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-default.svg" alt="elixr icon"></span>
+                                    Scheduling available events
+                                </li>
+                              </ul>
+                          </div>
+                          <div class="card-footer">
+                              <a href="#" class="btn btn-primary">Try The Free Elix Plan</a>
+                          </div>
+                      </div>
+                    </div>
+                  <div class="col-lg-6">
+                    <div class="card premium-plan">
+                        <div class="card-header">
+                            
+                            <h5 class="card-title">Premium Plan</h5>
+                            <h6 class="per-month">240 <span>/per month</span></h6>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>All Features included from <a href="#" class="link">Free Plan</a>
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Travel mode
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Boost your profile
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Create events
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Video dates/ connections
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Back track on swipes
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>See who has liked your profile
+                                </li>
+                                <li>
+                                    <span><img src="http://localhost/assets/images/logo/elixr-icon-white.svg" alt="elixr icon"></span>Join interest circles
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-secondary">Try The Diamond Elix Plan</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Joining the waitlist -->
+<!-- Button trigger modal -->
+
+  
+<!-- Modal Begins -->
+<div class="modal fade" id="joinWaitListModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div id="joinWaitList" class="modal-dialog modal-dialog-centered" role="document">
+
+        
+        <div class="modal-content">
+            <div class="modal-header p-4" style="flex-direction: column; justify-content: center;">
+              <h5 class="modal-title" id="exampleModalLabel">Join Our Waitlist</h5>
+              <p class="text-white">Join our waiting list to experince the elixr of life, we provide value for your time here.</p>
+                
+            </div>
+            <div class="modal-body">
+                <div class="row plan">
+                    <div class="col-lg-12">
+                        <div class="card" style="box-shadow: none; background: transparent;">
+                            <div  id="subscribe-form-area" class="card-body">
+                                <form id="my-form" action="https://formspree.io/f/mjvzllyb" method="POST">
+                                    <div class="form-group flex">
+                                        <input type="email" name="email" class="form-control b-0 " placeholder="Enter Your Email Address...">
+                                        
+                                        <input type="submit" id="my-form-button"  class="btn btn-primary b-0 " value="Join Our Waiting List" style="max-width: fit-content;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+</div>
+
+
+    
+<!-- ================> Page Header section start here <================== -->
+<div class="pageheader bg_img" style="background-image: url(assets/images/blog/cover.jpg);">
+    <div class="container" style="position: relative;">
+        <div class="pageheader__content text-center">
+            <h1 style="font-size: 2rem; color: var(--primary-color);">Our Blog Post</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0" style="background: rgb(255,255,255, .2); backdrop-filter: blur(1px);">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- ================> Page Header section end here <================== -->
+
+<!-- ================> Blog section start here <================== -->
+<div class="blog padding-top padding-bottom">
+    <div class="container">
+        <div class="section-wrapper">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 col-12">
+                    <div class="blog__item">
+                        <div class="blog__inner d-flex flex-wrap align-items-center" style="background: transparent;">
+                            <div class="blog__thumb w-xl-50 w-100">
+                                <img src="assets/images/work/Blog_Post2.jpg" alt="blog-thumb" class="w-100">
+                            </div>
+                            <div class="blog__content p-4 ps-xl-5 w-xl-50 w-100">
+                                <a href="blog-single.html"><h3>Dramatically procrastinate extensive testing procedures.</h3></a>
+                                <div class="blog__metapost">
+                                    <a href="#">Admin</a>
+                                    <a href="#">01 January 2022</a>
+                                </div>
+                                <p>Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one</p>
+                                <a href="blog-single.html" class="default-btn"><span>read more</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="blog__item">
+                        <div class="blog__inner" style="background: transparent;">
+                            <div class="blog__thumb">
+                                <img src="assets/images/work/Blog_post1.jpg" alt="blog-thumb" class="w-100">
+                            </div>
+                            <div class="blog__content px-3 py-4">
+                                <a href="blog-single.html"><h3>Compellingly productivate innovative niches rather.</h3></a>
+                                <div class="blog__metapost">
+                                    <a href="#">Admin</a>
+                                    <a href="#">01 January 2022</a>
+                                </div>
+                                <p>Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one</p>
+                                <a href="blog-single.html" class="default-btn reverse"><span>read more</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ================> Blog section end here <================== -->
+
+    
+
+	<!-- All Needed JS -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- <script src="assets/js/all.min.js"></script> -->
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/counterup.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/lightcase.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('set', 'transport', 'beacon');
+		ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async></script>
+	<script>
+		var form = document.getElementById("my-form");
+		
+		async function handleSubmit(event) {
+		  event.preventDefault();;
+		  var data = new FormData(event.target);
+		  fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		  }).then(response => {
+			if (response.ok) {
+			  alert("Thanks for your submission");
+			  form.reset()
+			} else {
+			  response.json().then(data => {
+				if (Object.hasOwn(data, 'errors')) {
+					alert(data["errors"].map(error => error["message"]).join(", "));
+				} else {
+					alert("Oops! There was a problem submitting your form");
+				}
+			  })
+			}
+		  }).catch(error => {
+			alert("Oops! There was a problem submitting your form");
+		  });
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
+</body>
+</html>
+<footer class="footer footer--style2">
+		<div class="footer__top bg_img">
+			<div class="footer__toparea padding-top padding-bottom wow fadeInUp" data-wow-duration="1.5s">
+				<div class="container">
+					<div class="row g-4">
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item footer--about">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>About Elixr</h4>
+										</div>
+										<div class="footer__content--desc">
+											<!-- Ozioma, edit the contents directly in the tag below -->
+											<p class="text-white">Elixir is an exclusive social web platform that allows older adults socialize with people with similar interests values and ages. </p>
+										</div>
+										<!-- Ozioma, edit the contents directly in the tag below -->
+										<div class="footer__content--info">
+											<p><b>Location :</b> Aluguntugui St, Accra</p>
+											<p><b>Address :</b> Suite-13 Tropical Center New Elephant Road 1205</p>
+											<p><b>Contact :</b> +30 226 4881 514 www.dateonelixr.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="footer__item footer--support">
+								<div class="footer__inner">
+									<div class="footer__content">
+										<div class="footer__content--title">
+											<h4>Contacts & Support</h4>
+										</div>
+										<div class="footer__content--desc">
+											<ul>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Our Team</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Testimonials</a></li>
+												<li><a href="#"><i class="fa-solid fa-angle-right"></i> Get in Touch</a></li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 col-12">
+							<div class="row g-4 flex-column">
+							
+						<div class="col-lg-12 col-12">
+							<div class="footer__newsletter--area justify-content-xxl-end">
+								<div class="footer__newsletter--title me-xl-4">
+									<h4>Join Community</h4>
+								</div>
+								<div class="footer__newsletter--social">
+									<ul>
+										<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+										
+										<li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-12">
+							<div class="footer__newsletter--area">
+								<div class="footer__newsletter--title">
+									<h4>Newsletter Sign up</h4>
+								</div>
+								<div class="footer__newsletter--form">
+									<form action="#">
+										<input type="email" placeholder="Your email address">
+										<button type="submit" class="default-btn"><span>Subscribe</span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
+			<div class="container">
+				<div class="footer__content text-center">
+					<p class="mb-0">All Rights Reserved &copy; <a href="index.html">Elixr</a> || Design By: CodexCoder</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+

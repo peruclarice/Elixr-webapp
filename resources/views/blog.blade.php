@@ -189,5 +189,6 @@
     </div>
 </div>
 <!-- ================> Blog section end here <================== -->
+@include('layout.landing-page.faq')
 
 @endsection
